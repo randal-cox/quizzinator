@@ -1,0 +1,57 @@
+/* Layout and tables */
+#quiz-meta-table {
+  width: auto;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+#quizzinator_dialog {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+#quiz-meta-table th,
+#quiz-meta-table td,
+#quizzinator_dialog th,
+#quizzinator_dialog td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+#quiz-meta-table td:first-child {
+  font-weight: bold;
+}
+#quizzinator_dialog tr.even { background: #d9d9d9; }
+#quizzinator_dialog tr.odd  { background: #fff; }
+
+/* Icons and tooltips */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+  margin-right: 0.5rem;
+}
+.tooltip:hover::after {
+  content: attr(data-tooltip);
+  white-space: pre-wrap;
+  position: absolute;
+  top: 100%; left: 0;
+  background: rgba(0,0,0,0.85);
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 4px;
+  z-index: 100;
+  min-width: 300px;
+  max-width: 800px;
+  text-transform: none;
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+/* Think text styling */
+.think {
+  font-style: italic;
+  color: #555;
+}

@@ -1,0 +1,99 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "🚀 setup quizzinator"
+
+# 0) install any python dependencies needed for virtualenv
+python3.12 -m pip install -q --upgrade pip --break-system-packages
+python3.12 -m pip install -q virtualenv --break-system-packages
+echo "  🐍 python3.12 global upgrades"
+
+# 1) create & activate venv
+if [[ ! -d venv ]]; then
+  python3.12 -m venv venv
+fi
+source venv/bin/activate
+# make sure the local lib is in the PYTHONPATH path
+SITE_PACKAGES="venv/lib/python3.12/site-packages"
+echo "$(pwd)/lib" > "$SITE_PACKAGES/quizzinator.pth"
+echo "  🥚 virtual environment"
+
+# 2) install deps quietly
+venv/bin/pip install -qq -r requirements.txt
+venv/bin/pip install -qq --upgrade pip wheel
+echo "  📦 requirements"
+
+# 3) make sure ollama is installed
+if ! command -v ollama &> /dev/null; then
+  unameOut="$(uname -s)"
+  case "${unameOut}" in
+    Darwin*)
+      # macOS
+      if ! command -v brew &> /dev/null; then
+        echo "  ❗ Homebrew not found. Install it from https://brew.sh"
+        exit 1
+      fi
+      echo "  🔍 ollama not found on PATH—installing now…"
+      brew install ollama
+      ;;
+
+    Linux*)
+      # Linux: try apt, dnf, pacman, otherwise fall back
+      if command -v apt-get &> /dev/null; then
+        echo "  🔍 ollama not found on PATH—installing now…"
+        sudo apt-get update
+        sudo apt-get install -y ollama
+      elif command -v dnf &> /dev/null; then
+        echo "  🔍 ollama not found on PATH—installing now…"
+        sudo dnf install -y ollama
+      elif command -v pacman &> /dev/null; then
+        echo "  🔍 ollama not found on PATH—installing now…"
+        sudo pacman -Sy --noconfirm ollama
+      else
+        echo "  ❗ Don’t know your distro’s package manager."
+        echo "   See https://ollama.com/docs/install for manual Linux install."
+        exit 1
+      fi
+      ;;
+
+    MINGW*|MSYS*|CYGWIN*)
+      # Windows (Git-Bash / Cygwin) – try winget then choco
+      if command -v winget &> /dev/null; then
+        echo "  🔍 ollama not found on PATH—installing now…"
+        winget install ollama.ollama
+      elif command -v choco &> /dev/null; then
+        echo "  🔍 ollama not found on PATH—installing now…"
+        choco install ollama -y
+      else
+        echo "  ❗ No winget or choco found. Install one or download from:"
+        echo "     https://ollama.com/docs/install#windows"
+        exit 1
+      fi
+      ;;
+
+    *)
+      echo "  ❗ Unsupported OS: ${unameOut}"
+      exit 1
+      ;;
+  esac
+fi
+echo "  🤖 ollama"
+
+
+# List of sizes to ensure
+models=(1.5b 7b 32 70)
+
+# Grab the list of already-installed models once
+installed="$(ollama list)"
+
+for size in "${models[@]}"; do
+  name="deepseek-r1:${size}"
+  if ! grep -Fq "$name" <<<"$installed"; then
+    echo "  ⏬ Pulling $name…"
+    ollama pull "$name"
+  fi
+done
+echo "  🧠 deepseek models"
+
+echo "🎉 setup complete"
+

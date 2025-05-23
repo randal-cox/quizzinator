@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+print_help() {
+  cat <<'EOF'
+test — run tests on Quizzinator
+
+Usage:
+  test [--continuous] [--help] [pytest-args…]
+
+Options:
+  --continuous   Re-run tests in a loop (every 10s).
+  --help         Show this help message and exit.
+
+Examples:
+  # Run tests once:
+  ./test
+
+  # Run tests once, filtering to a specific test:
+  ./test tests/test_utils.py::test_pp
+
+  # Watch tests, re-running every 10s:
+  ./test --continuous
+
+  # Watch tests with extra pytest options (--slow runs slow tests like querying the LLM)
+  ./test --continuous -q --slow
+EOF
+}
+
+# Help takes precedence
+for arg in "$@"; do
+  if [[ "$arg" == "--help" ]]; then
+    print_help
+    exit 0
+  fi
+done
+
+# check if we want continuous testing
+CONTINUOUS=false
+if [[ "${1-}" == "--continuous" ]]; then
+  # rerun pytest every second
+  shift
+  while true; do
+    clear
+    echo "=== Running tests at $(date +'%T') ==="
+    ./venv/bin/pytest --no-header -s "$@"
+    echo
+    sleep 10
+  done
+else
+  # run pytest just once
+  ./venv/bin/pytest --no-header -s "$@"
+fi
+

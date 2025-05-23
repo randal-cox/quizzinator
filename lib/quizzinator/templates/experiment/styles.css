@@ -1,0 +1,42 @@
+body { font-family: sans-serif; padding: 1rem; }
+
+/* Tables */
+table { border-collapse: collapse; margin: 1rem 0; width: auto; }
+th, td { border: 1px solid #ccc; padding: 0.5rem; text-align: left; vertical-align: top; }
+
+/* Bold first column of meta tables */
+#experiment-meta-table td:first-child,
+#quiz-meta-table td:first-child {
+  font-weight: bold;
+}
+#quiz-links-container a {
+  display: inline-block;
+  min-width: max-content;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+a {
+  margin-bottom: 0.5rem;
+}
+/* Charts layout */
+#charts-container { display: flex; flex-wrap: wrap; gap: 2rem; }
+.chart-box { width: 300px; }
+.chart-box canvas { width: 100% !important; height: auto !important; }
+
+/* Tooltip */
+.tooltip { position: relative; display: inline-block; cursor: help; margin-right: 0.5rem; }
+.tooltip:hover::after {
+  content: attr(data-tooltip);
+  white-space: pre-wrap;
+  position: absolute; top: 100%; left: 0;
+  background: rgba(0,0,0,0.85); color: #fff;
+  padding: 0.5em; border-radius: 4px; z-index: 100;
+  min-width: 300px; max-width: 800px;
+  text-align: left; font-size: 0.9rem; line-height: 1.4;
+}
+
+/* Think text style (if used) */
+.think { font-style: italic; color: #555; }
+#chartContainer {
+  overflow: auto;
+}
