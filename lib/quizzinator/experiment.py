@@ -298,6 +298,9 @@ def experiment_html(dir_path):
   # Copy the templates/experiment files
   source_dir = Path(__file__).parent / "templates/experiment"
   target_dir = Path(dir_path) / "info"
+  if not os.path.exists(target_dir):
+    target_dir.mkdir(exist_ok=True)
+
   copytree(source_dir, target_dir, ["quizzes"])
 
   # Read the csv data
@@ -339,6 +342,7 @@ def experiment_html(dir_path):
   with open(data_js_path, "w") as data_js_file:
     data_js_file.write("window.document = window.document || {};\n")
     data_js_file.write("window.document.quizzinator = window.document.quizzinator || {};\n")
+
     data_js_file.write("document.quizzinator.quizData = ")
     json.dump(data_js["quizzinator"]["quizData"], data_js_file, indent=4)
 
@@ -353,6 +357,16 @@ def experiment_html(dir_path):
     data_js_file.write(";\ndocument.quizzinator.qtext = ")
     json.dump(q_test, data_js_file, indent=4)
     data_js_file.write(";")
+
+  # generate data.json - drop all the js stuff
+  data_json_path = target_dir / "data.json"
+  data = {
+    'meta': meta,
+    'responses': csv_data,
+  }
+  with open(data_json_path, "w") as f:
+    json.dump(data, f, indent=4)
+
 
 
 
@@ -483,4 +497,4 @@ def experiment_main():
     experiment_html(Path(args.dir) / 'experiments' / args.experiment)
   # package the html folder
   path = Path(args.dir) / 'experiments' / args.experiment / 'info'
-  experiment_package(path, os.path.basename(args.dir) + '-' + args.experiment)
+  experiment_package(path, os.path.basename(args.dir) + '_' + args.experiment)

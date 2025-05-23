@@ -12,22 +12,22 @@
 #   - the whole thing (the baseline for all comparisons) or
 #   - a sample (a )control for similarity metrics)
 ##############################################################################
-#echo "Running whole human data"
-#./bin/experiment \
-#  --from_hints \
-#  --verbose \
-#  --experiment Humans_all \
-#  --n 0 \
-#  data/echo_one
-#
-## A sample the same size as the otehr experiments
-#echo "Running partial human data"
-#./bin/experiment \
-#  --from_hints \
-#  --verbose \
-#  --experiment Humans_66 \
-#  --n 66 \
-#  data/echo_one
+echo "🚀 Running whole human data"
+./bin/experiment \
+  --from-hints \
+  --verbose \
+  --experiment Humans_all \
+  data/consent
+echo
+
+echo "🚀 Running partial human data"
+./bin/experiment \
+  --from-hints \
+  --verbose \
+  --experiment Humans_66 \
+  --n 66 \
+  data/consent
+echo
 
 ##############################################################################
 # echo
@@ -40,18 +40,18 @@ for e in  Roles Gender
 do
   for m in 1.5 7 32 70
   do
-    echo
-    echo "Running ${e} echo for deepseek model ${m}B"
+    echo "🚀 Running ${e} echo for deepseek model ${m}B"
     ./bin/experiment \
       --hints ${e} \
       --verbose  \
-      --experiment ${e}_${m}B \
+      --experiment echo_${e}_${m}B \
       --model deepseek-r1:${m}B \
       --timeout 600 \
       --attempts 2 \
       --n 66 \
       --questions PuPSafeword,RRSafeword,${e} \
-      data/echo
+      data/consent
+    echo
     #echo "time ./bin/experiment -hints ${e} --verbose  --experiment matched_${e}_${m}B --model deepseek-r1:${m}B --timeout 600  --attempts 2 --n 66 --questions PuPSafeword,RRSafeword,${e} data/echo"
   done
 done
