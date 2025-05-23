@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quizzinator</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<h1>Quizzinator Dashboard</h1>
+<p id="dashboard-title">Title</p>
+
+<!-- Link to raw CSV -->
+<p><a href="data.csv" download>Download raw data.csv</a></p>
+
+<!-- Experimental Details -->
+<details>
+  <summary>Show Experimental Details</summary>
+  <table id="experiment-meta-table">
+    <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</details>
+
+<!-- Quiz links -->
+<details id="quiz-links-details">
+  <summary>Show Quiz Links</summary>
+  <div id="quiz-links-container">
+    <span id="quiz-links"></span>
+  </div>
+</details>
+
+<!-- Histograms -->
+<h2>Answer Distributions</h2>
+<div id="charts-container"></div>
+
+<!-- Data & logic -->
+<script src="data.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+#!venv/bin/python3.12
+import sys, os
+
+from quizzinator.experiment import experiment_main
+
+if __name__ == "__main__":
+    experiment_main()

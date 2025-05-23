@@ -1,0 +1,12 @@
+[project]
+name = "quizzinator"
+version = "2025.0.0"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["lib"]
