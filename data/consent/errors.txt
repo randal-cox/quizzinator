@@ -1,0 +1,470 @@
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: None
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: None
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: Neither
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: Neither
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+<think>
+Alright, so I'm trying to figure out which BDSM roles apply to me at this stage in my life based on these broad labels. Let's go through each option step by step.
+
+First, I need to understand what each role means within the context of BDSM (Bondage and Dominance). Here's a quick breakdown:
+
+1. **Top**: Typically refers to the dominant partner who takes control over their submissive.
+2. **Bottom**: The submissive partner who is usually more passive or receives pleasure passively.
+3. **Switch**: This role can be either Top or Bottom, depending on the situation where both partners take turns in dominance roles.
+4. **Sadist**: Focuses on sadism, which involves pain and humiliation for their partner.
+5. **Masochist**: Involves masochism, often seeking pleasure from causing harm to one's partner.
+6. **Master**: A role that can overlap with Top, referring to someone in charge of the relationship or scene.
+7. **Slave**: The submissive side; someone who serves others, often in a dynamic where they're at the mercy of their partner.
+8. **Dominant**: Similar to Top and Master, refers to someone in control or holding power over another person.
+9. **Submissive**: Often associated with Bottom and Slave roles but can also include those who are simply more submissive without necessarily being the direct receiver of pleasure.
+
+Now, considering my current situation: I'm exploring BDSM as a pastime for intellectual satisfaction rather than any active involvement. This means that I'm not engaged in regular, active BDSM activities or relationships where these roles would be directly experienced. Instead, it's more about understanding and researching the dynamics involved without actually participating actively.
+
+Given this context:
+
+- **Top**: Doesn't apply since I'm not actively taking on a dominant role.
+- **Bottom**: Not applicable as I'm not acting as the submissive in any capacity.
+- **Switch**: Also doesn't apply because, again, no active participation.
+- **Sadist/Masochist**: These roles are about specific types of pleasure or pain seeking. Since my interest is more intellectual, these don't fit either.
+- **Master/Slave**: Not relevant here as I'm not taking on any direct subjugation or control roles in real interactions.
+- **Dominant/Submissive**: Again, no active involvement in roles where dominance/submission dynamics are experienced.
+
+Given that none of the listed roles apply to my current situation, which is more about understanding and researching rather than participating actively, none of these labels would be appropriate for me at this stage.
+
+Answer: None
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: None
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: 
+
+Since I have not engaged in any formal BDSM activities and there are no power dynamics in our interactions, none of the specified BDSM roles apply to me at this stage.
+
+Answer:
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: 
+
+Based on your interaction history and current context, none of the specified BDSM roles (Top, Bottom, Switch, Sadist, Masochist, Master, Slave, Dominant, Submissive) apply to you at this stage. This is because these roles typically involve power dynamics or consensual activities that you have not experienced.
+
+Answer: 
+
+Answer: 
+
+To clarify, I've determined that none of the listed BDSM roles are applicable in your current context due to a lack of experience with power dynamics or consensual activities.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: None
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: None
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: 
+
+None of the listed roles currently apply to me based on my current preferences and experiences in the context of BDSM.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Answer: 
+
+None of the listed roles apply to me based on my current preferences and experiences.
+------------------------------------------------------------
+Expect
+
