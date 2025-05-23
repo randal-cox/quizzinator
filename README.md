@@ -1,5 +1,8 @@
 # Quizzinator
-This projects simulates the behavior of survey respondents using the DeepSeek (r1) LLM.
+This projects simulates the behavior of survey respondents using the DeepSeek (r1) LLM. 
+The canonical location for this code repository is 
+
+> https://github.com/randal-cox/quizzinator
 
 # Setup
 Make sure you have [python3.12](https://www.python.org/downloads/release/python-3120/) 
@@ -101,7 +104,57 @@ Quizzinator has a number of command-line tools.
 Described above. This sets up the local virtual environment and the LLM models.
 
 ## test
-Described above. This runs the unit tests for the project.
+Described above. This runs the unit tests for the project. You can say --help to get
+help with this command.
 
 ## experiment
+You can get details about how to use this command by typing
 
+>./bin/experiment --help
+
+```
+usage: quiz [-h] [--experiment EXPERIMENT] [--hints HINTS] [--questions QUESTIONS] [--timeout TIMEOUT] [--n N] [--attempts ATTEMPTS] [-m MODEL]
+            [--from-hints] [--skip-identity] [--skip-setup] [-v] [-r] [--use-cache]
+            dir
+
+Run LLM-based survey simulations
+
+positional arguments:
+  dir                   Path to survey directory
+
+options:
+  -h, --help            show this help message and exit
+  --experiment EXPERIMENT
+                        The name of the experiment to generate
+  --hints HINTS         Add the names of questions that the LLM should know the answers to ahead of time, separated by commas
+  --questions QUESTIONS
+                        Add the names of questions that are asked, separated by commas [def = all questions]
+  --timeout TIMEOUT     Seconds before we timeout responses from the LLM
+  --n N                 Number of respondents. 0 for match to hints.csv
+  --attempts ATTEMPTS   How many times we will ask the question before giving up
+  -m MODEL, --model MODEL
+                        Ollama model name to use, like deepseek-r1:1.5b
+  --from-hints          If set, just create data from the hints file, not from LLM queries
+  --skip-identity       If set, do not inform the LLM about identity questions
+  --skip-setup          If set, do not show inform the LLM about the context of the survey
+  -v, --verbose         Show dialog as it happens
+  -r, --reset           If set, recompute
+  --use-cache           If set, load from cache instead of querying the LLM
+```
+
+For example, the following command will run a new experiment on the data in data/consent.
+It will take the first 66 rows of hints.csv, take the answers given there for Roles,
+tell the LLM that it should pretend it is the role from that row, then ask the three
+questions given, including the one where we ask the LLM what Roles it has (hopefully 
+echoed back)
+
+```
+./bin/experiment \
+  --hints Roles \
+  --verbose  \
+  --experiment Roles \
+  --model deepseek-r1:1.5B \
+  --n 66 \
+  --questions PuPSafeword,RRSafeword,Roles \
+  data/consent
+```
