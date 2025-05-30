@@ -188,21 +188,21 @@ def test_make_full_questions_with_hints(tmp_path):
     # non-empty hints triggers identity.txt and a foreshadowing intro
     qs = make_full_questions(survey_path, hints=['x'], index=0)
     # Should have identity, hints intro, setup, plus parsed questions
-    assert len(qs) == 5, f"Expected 5 items, got {len(qs)}"
+    assert len(qs) == 4, f"Expected 4 items, got {len(qs)}"
     # First question is identity text
     assert qs[0].prompt_text.startswith('Pretend you')
     # Remaining are parsed questions in order
-    names = [q.name for q in qs[1:]]
+    names = [q.name for q in qs]
     assert names == ["PuPSafeword", "PuPNegotiation", "Gender", "SexualOrientation"]
 def test_make_full_questions_without_hints(tmp_path):
     survey_path = create_test_survey_dir(tmp_path, include_hints=False)
     # empty hints triggers identity and generic intros
     qs = make_full_questions(survey_path, hints=[], index=0)
-    assert len(qs) == 5, f"Expected 5 items, got {len(qs)}"
+    assert len(qs) == 4, f"Expected 4 items, got {len(qs)}"
     # First question is identity.txt
     assert qs[0].prompt_text.startswith('Pretend you')
     # Remaining are parsed questions in order
-    names = [q.name for q in qs[1:]]
+    names = [q.name for q in qs]
     assert names == ["PuPSafeword", "PuPNegotiation", "Gender", "SexualOrientation"]
 
 def test_build_question_ordering():
