@@ -1,5 +1,5 @@
 import pytest
-from quizzinator.answers import extract_llm_answer, pattern_consensus
+from quizzinator.answers import extract_llm_answer, pattern_consensus, evaluate_role_consistency
 
 # Define a regex for numbers 1–12 and dash-separated sequences
 # Define a regex for numbers 1–12 (longest-first) and dash-separated sequences
@@ -77,3 +77,37 @@ def test_extract_conflicting_multiple_patterns():
     # But conflicting styled answers should return None
     text2 = "Answer: (4)\\boxed{5}"
     assert extract_llm_answer(text2, None) == '5'
+
+# tests/test_roles.py
+
+@pytest.mark.parametrize("hint,response,expected", [
+    # Exact matches
+    ({"Top"}, {"Top"}, "exact match"),
+    ({"Top", "Bottom"}, {"Top", "Bottom"}, "exact match"),
+    ({"Switch"}, {"Top", "Bottom"}, "exact match"),
+
+    # Semantically close
+    ({"Top"}, {"Top", "Sadist"}, "semantically close"),
+    ({"Top"}, {"Top", "Bottom"}, "contradiction"),
+
+    # Partial matches
+    ({"Dominant", "Sadist"}, {"Dominant"}, "partial match"),
+    ({"Top", "Bottom"}, {"Top"}, "partial match"),
+
+    # Contradictions
+    ({"Top"}, {"Bottom"}, "contradiction"),
+    ({"Submissive"}, {"Dominant"}, "contradiction"),
+
+    # No contradiction when hint includes both
+    ({"Top", "Bottom"}, {"Top", "Bottom"}, "exact match"),
+    ({"Top", "Bottom"}, {"Top", "Bottom", "Sadist"}, "semantically close"),
+
+    # Unrelated
+    ({"Submissive"}, {"Sadist"}, "unrelated"),
+    ({"Master"}, {"Masochist"}, "unrelated"),
+])
+def test_evaluate_role_consistency(hint, response, expected):
+    result = evaluate_role_consistency(hint, response)
+    if result != expected:
+        print([hint, response, expected, result])
+    assert result == expected

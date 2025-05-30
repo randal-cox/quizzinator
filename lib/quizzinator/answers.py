@@ -7,53 +7,113 @@ from pathlib import Path
 from .logging import logger
 from .cli import cli_get_args
 
+def rule_numbers_to_names(number: str):
+  lookup = {
+    '1': 'Top',
+    '2': 'Bottom',
+    '3': 'Switch',
+    '4': 'Sadist',
+    '5': 'Masochist',
+    '6': 'Master',
+    '7': 'Slave',
+    '8': 'Dominant',
+    '9': 'Submissive',
+  }
+  if number in lookup: return lookup[number]
+  return number
+
+def evaluate_role_consistency(hint_set: set[str], response_set: set[str]) -> str:
+  """Used in concordance to test for 'close-enough' Roles"""
+
+  # convert the numbers to names
+  hint_set = [rule_numbers_to_names(n) for n in hint_set]
+  response_set = [rule_numbers_to_names(n) for n in response_set]
+
+  oppositional_pairs = [
+    ("Top", "Bottom"),
+    ("Dominant", "Submissive"),
+    ("Sadist", "Masochist"),
+    ("Master", "Slave"),
+  ]
+
+  composite_roles = {
+    "Switch": {"Top", "Bottom"},
+  }
+
+  def expand_roles(roles):
+    expanded = set()
+    for r in roles:
+      if r in composite_roles:
+        expanded.update(composite_roles[r])
+      else:
+        expanded.add(r)
+    return expanded
+
+  expanded_hint = expand_roles(hint_set)
+  expanded_response = expand_roles(response_set)
+
+  for a, b in oppositional_pairs:
+    if a in expanded_hint and b not in expanded_hint and b in expanded_response:
+      return "contradiction"
+    if b in expanded_hint and a not in expanded_hint and a in expanded_response:
+      return "contradiction"
+
+  if expanded_response == expanded_hint:
+    return "exact match"
+  if expanded_hint.issubset(expanded_response):
+    return "semantically close"
+  if expanded_hint & expanded_response:
+    return "partial match"
+  return "unrelated"
+
+
 def pattern_consensus(pattern: str, text: str) -> str | bool:
-    """
-    Find all occurrences of `pattern` in `text`. If they all agree on one value, return it; otherwise return False.
-    Returns False if no matches or conflicting matches.
-    """
-    flags = re.IGNORECASE | re.MULTILINE
-    matches = re.findall(pattern, text.strip(), flags=flags)
-    if not matches:
-        return False
-    # If the regex has capturing groups, re.findall returns tuples
-    # Normalize to a flat list of strings
-    flat = []
-    for m in matches:
-        if isinstance(m, tuple):
-            flat.extend(filter(None, m))
-        else:
-            flat.append(m)
-    # Deduplicate
-    uniq = set(flat)
-    if len(uniq) == 1:
-        return uniq.pop()
+  """
+  Find all occurrences of `pattern` in `text`. If they all agree on one value, return it; otherwise return False.
+  Returns False if no matches or conflicting matches.
+  """
+  flags = re.IGNORECASE | re.MULTILINE
+  matches = re.findall(pattern, text.strip(), flags=flags)
+  if not matches:
     return False
+  # If the regex has capturing groups, re.findall returns tuples
+  # Normalize to a flat list of strings
+  flat = []
+  for m in matches:
+    if isinstance(m, tuple):
+      flat.extend(filter(None, m))
+    else:
+      flat.append(m)
+  # Deduplicate
+  uniq = set(flat)
+  if len(uniq) == 1:
+    return uniq.pop()
+  return False
 
 def pattern_all(pattern: str, text: str) -> list[str]:
-    """
-    Find all occurrences of `pattern` in `text`, flatten any
-    capture-group tuples, dedupe *but preserve order*, and return
-    the list of strings (or empty list if none).
-    """
-    flags = re.IGNORECASE | re.MULTILINE
-    raw = re.findall(pattern, text, flags)
-    flat = []
-    for m in raw:
-        if isinstance(m, tuple):
-            for g in m:
-                if g is not None:
-                    flat.append(g)
-        else:
-            flat.append(m)
-    # preserve first-seen order when deduping
-    seen = set()
-    ordered = []
-    for v in flat:
-        if v not in seen:
-            seen.add(v)
-            ordered.append(v)
-    return ordered
+  """
+  Find all occurrences of `pattern` in `text`, flatten any
+  capture-group tuples, dedupe *but preserve order*, and return
+  the list of strings (or empty list if none).
+  """
+  flags = re.IGNORECASE | re.MULTILINE
+  raw = re.findall(pattern, text, flags)
+  flat = []
+  for m in raw:
+    if isinstance(m, tuple):
+      for g in m:
+        if g is not None:
+          flat.append(g)
+    else:
+      flat.append(m)
+  # preserve first-seen order when deduping
+  seen = set()
+  ordered = []
+  for v in flat:
+    if v not in seen:
+      seen.add(v)
+      ordered.append(v)
+  return ordered
 
 
 import re
@@ -65,81 +125,81 @@ def extract_llm_answer(
     *,
     multi: bool = False
 ) -> Optional[Union[str, List[str]]]:
-    """
-    Try each regex in order.  As soon as one yields matches:
-      - if multi=True, return all unique matches from that pattern
-      - if multi=False and exactly one unique match, return it
-      - otherwise (multi=False and >1 matches), skip to the next pattern
-    If none match, return None.
-    """
-    flags = re.IGNORECASE | re.MULTILINE
-    tpat  = target or r'\d+(?:-\d+)*|[A-Z]'
-    tgt   = rf'\#?({tpat})'
+  """
+  Try each regex in order.  As soon as one yields matches:
+    - if multi=True, return all unique matches from that pattern
+    - if multi=False and exactly one unique match, return it
+    - otherwise (multi=False and >1 matches), skip to the next pattern
+  If none match, return None.
+  """
+  flags = re.IGNORECASE | re.MULTILINE
+  tpat  = target or r'\d+(?:-\d+)*|[A-Z]'
+  tgt   = rf'\#?({tpat})'
 
-    patterns = [
-      # 0) Final answer always most important
-      r'\*\*\s*Final Answer\s*:?[\\*\\s]*Answer:\s*_T_',
+  patterns = [
+    # 0) Final answer always most important
+    r'\*\*\s*Final Answer\s*:?[\\*\\s]*Answer:\s*_T_',
 
-      # Boxed is next most certain
-      r'\\boxed\{([^}]+)\}',
+    # Boxed is next most certain
+    r'\\boxed\{([^}]+)\}',
 
-      # “Answer Selected:” for *any* target (unquoted, comma/dash-sep, etc)
-      r'Answer Selected:\s*_T_',
-      r"Answer Selected:\s*'_T_'",
-      r'Answer Selected:\s*"_T_"',
+    # “Answer Selected:” for *any* target (unquoted, comma/dash-sep, etc)
+    r'Answer Selected:\s*_T_',
+    r"Answer Selected:\s*'_T_'",
+    r'Answer Selected:\s*"_T_"',
 
-      # Now the regular “Answer:” patterns
-      r'Answer:\s*_T_',
-      r'Answer:\s*\(_T_\)',
-      r'Answer:\s*"_T_"',
-      r"Answer:\s*'_T_'",
-      r'\*\*\s*Answer\s*:?[\\*\\s]*_T_',
-      r'<answer>_T_</answer>',
+    # Now the regular “Answer:” patterns
+    r'Answer:\s*_T_',
+    r'Answer:\s*\(_T_\)',
+    r'Answer:\s*"_T_"',
+    r"Answer:\s*'_T_'",
+    r'\*\*\s*Answer\s*:?[\\*\\s]*_T_',
+    r'<answer>_T_</answer>',
 
-      # 5) fallback fuzzy patterns
-      r'^_T_$',
-      r'\*\*_T_\*\*',
-      r'\*\*\(_T_\)\*\*',
-      r'\(_T_\)',
-    ]
+    # 5) fallback fuzzy patterns
+    r'^_T_$',
+    r'\*\*_T_\*\*',
+    r'\*\*\(_T_\)\*\*',
+    r'\(_T_\)',
+  ]
 
-    for pat in patterns:
-        # build the real regex
-        regex = pat.replace('_T_', tgt)
-        raw   = re.findall(regex, text.strip(), flags)
+  for pat in patterns:
+    # build the real regex
+    regex = pat.replace('_T_', tgt)
+    raw   = re.findall(regex, text.strip(), flags)
 
-        if not raw:
-            continue
+    if not raw:
+      continue
 
-        # flatten tuples vs strings
-        flat: List[str] = []
-        for m in raw:
-            if isinstance(m, tuple):
-                flat.extend([g for g in m if g])
-            else:
-                flat.append(m)
+    # flatten tuples vs strings
+    flat: List[str] = []
+    for m in raw:
+      if isinstance(m, tuple):
+        flat.extend([g for g in m if g])
+      else:
+        flat.append(m)
 
-        # dedupe while preserving order
-        seen = set(); uniq = []
-        for v in flat:
-            if v not in seen:
-                seen.add(v)
-                uniq.append(v)
+    # dedupe while preserving order
+    seen = set(); uniq = []
+    for v in flat:
+      if v not in seen:
+        seen.add(v)
+        uniq.append(v)
 
-        if not uniq:
-            continue
+    if not uniq:
+      continue
 
-        # if multi, return every unique match right away
-        if multi:
-            return uniq
+    # if multi, return every unique match right away
+    if multi:
+      return uniq
 
-        # single mode: only accept exactly one match
-        if len(uniq) == 1:
-            return uniq[0]
-        # else >1 → ambiguous for this pattern, keep searching
+    # single mode: only accept exactly one match
+    if len(uniq) == 1:
+      return uniq[0]
+    # else >1 → ambiguous for this pattern, keep searching
 
-    # no pattern yielded an acceptable answer
-    return None
+  # no pattern yielded an acceptable answer
+  return None
 
 
 
@@ -155,16 +215,16 @@ def get_legal_answer(prompt: str, text: str, mode: str, legal_values: dict[str])
     return [True, text]
 
   if mode == 'line':
-      # first try the normal extractor:
-      extracted = extract_llm_answer(text, r'.+', multi=False)
-      # if nothing matched, grab the first non-empty line
-      if extracted is None:
-          for line in text.splitlines():
-              line = line.strip()
-              if line:
-                  extracted = line
-                  break
-      return [extracted is not None, extracted]
+    # first try the normal extractor:
+    extracted = extract_llm_answer(text, r'.+', multi=False)
+    # if nothing matched, grab the first non-empty line
+    if extracted is None:
+      for line in text.splitlines():
+        line = line.strip()
+        if line:
+          extracted = line
+          break
+    return [extracted is not None, extracted]
 
   if mode == 'word':
     # 1) try the extractor with a “one-or-more non-space” target
@@ -199,7 +259,7 @@ def get_legal_answer(prompt: str, text: str, mode: str, legal_values: dict[str])
         log_failures(mode, prompt, text)
         return [False, extracted]
 
-  if mode is 'single':
+  if mode == 'single':
     # choose an appropriate target regex
     tmap = {
       'number': r'[\d,]+',

@@ -16,7 +16,7 @@ from .quiz import quiz_todo, quiz_run_one, quiz_save, quiz_done
 
 def experiment_cli_args():
   p = argparse.ArgumentParser(
-    prog="quiz",
+    prog="experiment",
     description="Run LLM-based survey simulations"
   )
   p.add_argument(
@@ -235,7 +235,7 @@ def experiment_run_post_quizzes():
   args_dir = Path(os.path.abspath(args.dir))
 
   path_quizzes = args_dir / 'experiments' / args.experiment / 'quizzes'
-  path_info_quizzes = args_dir / 'experiments' / args.experiment / 'info' / 'quizzes'
+  path_info_quizzes = args_dir / 'html' / args.experiment / 'quizzes'
   path_info_quizzes.mkdir(parents=True, exist_ok=True)  # make directory, ignore if it already exists
   for child in path_quizzes.iterdir():
     if not child.is_dir(): continue
@@ -296,8 +296,8 @@ def experiment_html(dir_path):
   args = cli_get_args()
 
   # Copy the templates/experiment files
-  source_dir = Path(__file__).parent / "templates/experiment"
-  target_dir = Path(dir_path) / "info"
+  source_dir = Path(__file__).parent / "templates" / "experiment"
+  target_dir = Path(args.dir) / "html" / args.experiment
   if not os.path.exists(target_dir):
     target_dir.mkdir(exist_ok=True)
 
@@ -319,13 +319,6 @@ def experiment_html(dir_path):
   meta['size'] = len(csv_data)
   meta['from_hints'] = args.from_hints
 
-  # Generate data.js
-  data_js = {
-    "quizzinator": {
-      "quizData": csv_data,
-      "meta": meta
-    }
-  }
 
   # need to include document.quizzinator.hints
   hints = {}
@@ -335,6 +328,16 @@ def experiment_html(dir_path):
     q_test[q.name] = q.prompt_text
     for o in q.options:
       h[o.code] = o.text
+
+  # Generate data.js
+  data_js = {
+    "quizzinator": {
+      "quizData": csv_data,
+      "meta": meta,
+      "hints": hints,
+      "questions": q_test,
+    }
+  }
 
   # also the text of the question
 
@@ -363,11 +366,11 @@ def experiment_html(dir_path):
   data = {
     'meta': meta,
     'responses': csv_data,
+    "hints": hints,
+    "questions": q_test,
   }
   with open(data_json_path, "w") as f:
     json.dump(data, f, indent=4)
-
-
 
 
 def experiment_check():
@@ -391,7 +394,6 @@ def experiment_check():
   # make sure we have directories used by this code for output
   os.makedirs(root / 'experiments', exist_ok=True)
   os.makedirs(root / 'experiments' / args.experiment, exist_ok=True)
-  os.makedirs(root / 'comparisons', exist_ok=True)
   os.makedirs(root / 'html', exist_ok=True)
 
 def experiment_pre_meta():
@@ -478,7 +480,7 @@ def experiment_main():
   # fill in the experiment template
 
   # Remove the "info" directory if it exists
-  target_dir = Path(args.dir) / "experiments" / args.experiment / "info"
+  target_dir = Path(args.dir) / "html" / args.experiment
   if target_dir.exists() and target_dir.is_dir():
     shutil.rmtree(target_dir)
 
@@ -495,6 +497,31 @@ def experiment_main():
     # note this goes BEFORE for not from_hints
     experiment_run()
     experiment_html(Path(args.dir) / 'experiments' / args.experiment)
-  # package the html folder
-  path = Path(args.dir) / 'experiments' / args.experiment / 'info'
-  experiment_package(path, os.path.basename(args.dir) + '_' + args.experiment)
+  # make sure we copy the data.csv file into info
+  shutil.copy(
+    Path(args.dir) / "experiments" / args.experiment / 'data.csv',
+    target_dir / 'data.csv',
+  )
+
+  # make html/data.json
+  # Temporary dictionary to hold all our data
+  path_html = Path(args.dir) / "html"
+  dict_data = {}
+
+  # Traverse all directories under `path_html`
+  for root, dirs, files in os.walk(path_html):
+    for file in files:
+      # Process all `data.json` files
+      if file == 'data.json':
+        name = os.path.basename(root)  # Get the name of the base directory
+        with open(os.path.join(root, file), 'r') as f:
+          dict_data[name] = json.load(f)
+
+  # Write dictionary to `data.js` file
+  with open(path_html / 'data.js', 'w') as f:
+    f.write('document.quizzinator.data = ' + json.dumps(dict_data, indent=4) + ';')
+
+  # TODO: copy to html from templates folder
+  #  index.html
+  #  script.js
+  #  styles.css

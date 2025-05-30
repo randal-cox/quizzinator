@@ -1,19 +1,4 @@
 #!venv/bin/python3.12
-from quizzinator.utils import pp
-
-# # def main():
-# #     p = argparse.ArgumentParser(prog="compare",
-# #         description="Compare LLM outputs to hints.csv")
-# #     p.add_argument("survey_dir", help="Path to survey directory")
-# #     args = p.parse_args()
-# #
-# #     human_csv = os.path.join(args.survey_dir, "hints.csv")
-# #     # TODO: implement compare_distributions()
-# #     print(f"Will compare LLM runs in `llm_responses/` to {human_csv}")
-#
-# # if __name__ == "__main__":
-# #     main()
-#
-#
+from quizzinator.concordance import concordance_main
 if __name__ == "__main__":
-    pp([1,2,3])
+    concordance_main()
