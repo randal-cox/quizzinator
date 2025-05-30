@@ -258,19 +258,8 @@ def make_full_questions(
         prompt = open(os.path.join(dir, "setup", "consent.txt"), encoding="utf-8").read()
         q0.append(prompt)
 
-    # construct our questions
-    questions = []
-    questions.append(
-        Question(
-            name='_Context',
-            prompt_text='\n'.join(q0),
-            options=[],
-            multi=False,
-            mode='free'
-        )
-    )
-
-    # parse survey spec
-    questions += parse_questions(qfile)
-
+    # put the context inside the first question - this is an effeciency thing
+    q0 = "\n".join(q0) + ("\n====================\n\n")
+    questions = parse_questions(qfile)
+    questions[0].prompt_text = q0 + questions[0].prompt_text
     return questions

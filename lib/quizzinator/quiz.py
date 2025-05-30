@@ -114,7 +114,7 @@ def _quiz_run_one(index: int, total: int, questions: list[Question], cache: dict
     """
     # get the questions to ask the LLM
     args = cli_get_args()
-    todo = ['_Context'] + args.questions
+    todo = args.questions
     with (logger.progress(
         f"Quiz {index:,} of {args.n:,}",
         steps=len(todo),
