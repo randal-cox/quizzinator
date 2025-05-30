@@ -34,9 +34,15 @@ You can also run this to make sure everythoing is working as planned
 ```
 
 # Data Sets
-Quizzinator requires folders with some standard files in it. The included directory, echo,
-is an excellent example of project directory. At minumum, it requires this structure
-root/
+Quizzinator requires folders with some standard files in it. We include two example projects
+used in the paper: consent and jealousy. These projects analyze some published data in the 
+context of LLM answers. These projects are in the directory called data.
+
+Take a look at data/consent for an example of the project directory. At minumum, it requires 
+this structure. Over time, Quizzinator will create additional files and directories. Notably
+html will appear in your project directory.
+
+project_root/
 --hints.csv
 --questions.txt
 --setup/
@@ -95,6 +101,11 @@ survey, reputation, and policies. This consent document is basically the one giv
 to humans except it includes a little context so the LLM knows the survey is from
 a trusted source.
 
+## html
+This directory is produced by QUizzinator and includes the results from LLM responses
+and statistical analyses. If you open it, you will find an index.html file. Open this
+in your browser to look at results.
+
 ----
 
 # Usage
@@ -113,9 +124,10 @@ You can get details about how to use this command by typing
 >./bin/experiment --help
 
 ```
-usage: quiz [-h] [--experiment EXPERIMENT] [--hints HINTS] [--questions QUESTIONS] [--timeout TIMEOUT] [--n N] [--attempts ATTEMPTS] [-m MODEL]
-            [--from-hints] [--skip-identity] [--skip-setup] [-v] [-r] [--use-cache]
-            dir
+usage: experiment [-h] [--experiment EXPERIMENT] [--hints HINTS] [--questions QUESTIONS] 
+                  [--timeout TIMEOUT] [--n N] [--attempts ATTEMPTS] [-m MODEL]
+                  [--from-hints] [--skip-identity] [--skip-setup] [-v] [-r] [--use-cache]
+                  dir
 
 Run LLM-based survey simulations
 
@@ -143,10 +155,6 @@ options:
 ```
 
 For example, the following command will run a new experiment on the data in data/consent.
-It will take the first 66 rows of hints.csv, take the answers given there for Roles,
-tell the LLM that it should pretend it is the role from that row, then ask the three
-questions given, including the one where we ask the LLM what Roles it has (hopefully 
-echoed back)
 
 ```
 ./bin/experiment \
@@ -158,3 +166,48 @@ echoed back)
   --questions PuPSafeword,RRSafeword,Roles \
   data/consent
 ```
+
+This command will send 66 surveys to the 1.5 billion parameter Deep Seek model and collect the 
+results. For this data set Role refers to BDSM roles, like Top, Bottom, Dom, Sub, etc.
+
+Those 66 surveys will be constructed in very specific ways. Quizzinator will
+- Tell the LLM that it is human and that it should answer questions succinctly
+- get the answer about Role from hints.csv
+- Tell the LLM that in the past it answered questions about its role in the way 
+we fetched from hints
+- Then ask the LLM the PuPSafeword and RRSafeword questions as specified in the 
+questions.txt file
+- Finally ask the Roles question (from the questions.txt file) to see if the LLM 
+really internalized what we told it
+
+Quizzinator will cache all these results as it gets them. So, if you have to interupt 
+the run in the middle, Quizzinator will pick back up where it left off. When Quizzinator
+finishes its run, it will produce html that lets you see the results of all the 
+experiments you have run on this project (see below).
+
+### Compuational Resources
+Our paper describing Quizzinator used four Deep Seek models, with 1.5, 7, 32, and 70 billion 
+parameters, respectively. The largest of these had substantial footprints
+
+- 70B: 42 GB
+- 32G: 19 GB
+- 7B: 4.7 GB
+- 1.5B: 1.1 GB
+
+These models need to be in memory for use, so you should restrict the use of models to those
+that can run on your machine. In addition to adequate memory, your machine will also need 
+substantial GPU power.
+
+For our paper, we used an M1 Max Macbook Pro with 64 GB of memory, a modestly powerful machine
+for the time of the writing (2025). With this machine, full runs of the experiments described
+inb bin/run (see below) took about a week of computation.
+
+## paper
+This bash script runs all the experiments described in our paper on Quizzinator. Details
+are available in the linked paper, but in general, we looked at two published data sets.
+
+Buss [citation needed]
+Tarleton [citation needed]
+
+The run bash command should give you some good hints about how to run bin/experiments on
+your own data sets.
