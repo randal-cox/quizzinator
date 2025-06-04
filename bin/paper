@@ -1,9 +1,14 @@
 ##!/usr/bin/env bash
 
+###############################################################
 # This is what we run for the paper
+###############################################################
 
+###############################################################
 # The Buss physical vs emotional jealousy replication study
-for m in 70 32 7 1.5
+###############################################################
+# The LLM versions
+for m in 1.5 7 32 70
 do
   echo "🚀 Running Buss Jealousy for deepseek model ${m}B"
   ./bin/experiment \
@@ -18,18 +23,75 @@ do
     data/jealousy
   echo
 done
-exit
 
-##############################################################################
-# The human data set
-#   - the whole thing (the baseline for all comparisons) or
-#   - a sample (a )control for similarity metrics)
-##############################################################################
+# Test reproducibility on the fast 1.5B model
+for m in 1.5
+do
+  for p in 1 2 3 4
+  do
+    echo "🚀 Running Reproducibility controls for ${m}B pass ${p}"
+    ./bin/experiment \
+      --hints Gender \
+      --verbose \
+      --experiment ${m}B_p${p} \
+      --model deepseek-r1:${m}B \
+      --timeout 600 \
+      --attempts 2 \
+      --n 202 \
+      --questions Gender,Jealousy \
+      data/jealousy
+    echo
+  done
+done
+
+# The human data set and a sample of it
 echo "🚀 Running whole human data"
 ./bin/experiment \
   --from-hints \
   --verbose \
-  --experiment Humans_all \
+  --experiment Humans \
+  data/jealousy
+echo
+
+echo "🚀 Running partial human data"
+./bin/experiment \
+  --from-hints \
+  --verbose \
+  --experiment Humans_66 \
+  --n 66 \
+  data/jealousy
+echo
+
+##############################################################################
+# Consent
+##############################################################################
+# with either Roles or Gender given as a prompt
+for e in  Roles Gender
+do
+  for m in 1.5 7 32 70
+  do
+    echo "🚀 Running ${e} echo for deepseek model ${m}B"
+    ./bin/experiment \
+      --hints ${e} \
+      --verbose  \
+      --experiment ${e}_${m}B \
+      --model deepseek-r1:${m}B \
+      --timeout 600 \
+      --attempts 2 \
+      --n 66 \
+      --questions PuPSafeword,RRSafeword,${e} \
+      data/consent
+    echo
+    #echo "time ./bin/experiment -hints ${e} --verbose  --experiment matched_${e}_${m}B --model deepseek-r1:${m}B --timeout 600  --attempts 2 --n 66 --questions PuPSafeword,RRSafeword,${e} data/echo"
+  done
+done
+
+# The human data set and a sample of it
+echo "🚀 Running whole human data"
+./bin/experiment \
+  --from-hints \
+  --verbose \
+  --experiment Humans \
   data/consent
 echo
 
@@ -42,29 +104,12 @@ echo "🚀 Running partial human data"
   data/consent
 echo
 
-##############################################################################
-# echo
-#   we tell the LLM how to answer Roles/Gender and then we ask the LLM
-#     what the Role/Gender is.
-#   We also look at two questions that in humans are responsive to Role
-#   This also runs through all four model sizes
-##############################################################################
-for e in  Roles Gender
+# Get concordance between the prompt and the LLM response
+for m in 1.5 7 32 70
 do
-  for m in 1.5 7 32 70
-  do
-    echo "🚀 Running ${e} echo for deepseek model ${m}B"
-    ./bin/experiment \
-      --hints ${e} \
-      --verbose  \
-      --experiment echo_${e}_${m}B \
-      --model deepseek-r1:${m}B \
-      --timeout 600 \
-      --attempts 2 \
-      --n 66 \
-      --questions PuPSafeword,RRSafeword,${e} \
-      data/consent
-    echo
-    #echo "time ./bin/experiment -hints ${e} --verbose  --experiment matched_${e}_${m}B --model deepseek-r1:${m}B --timeout 600  --attempts 2 --n 66 --questions PuPSafeword,RRSafeword,${e} data/echo"
-  done
+  ./bin/concordance data/consent \
+    --experiment Roles_${m}B \
+    --hints Roles \
+    > figures/concordance/${m}B.txt
+  echo figures/concordance/${m}B.txt
 done

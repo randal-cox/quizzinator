@@ -1,0 +1,130 @@
+#!./venv/bin/python
+import math
+from scipy.stats import norm
+
+# https://chatgpt.com/share/683f2b97-9d7c-8003-ab9d-eca3f4366e0a
+
+
+def required_n_for_pvalue(p1, p2, p_cut, two_sided=True, power=None):
+    """
+    Compute the per-group sample size n so that, if the true proportions
+    are p1 and p2, the *expected* difference (p1 - p2) yields a two-sample
+    z-test p-value of p_cut.
+
+    If `power` is None:
+        - We solve: |p1 - p2| / sqrt[(p1(1-p1) + p2(1-p2)) / n]  = z_{1 - p_cut/2}
+          i.e.  50% chance of rejecting at alpha = p_cut (two-sided).
+    If `power` is given (e.g. 0.80):
+        - We solve the usual 2-sample formula requiring power 1 - beta:
+          n = ((z_{alpha/2} + z_{power})^2 * [p1(1-p1)+p2(1-p2)]) / (p1 - p2)^2
+
+    Args:
+      p1, p2: true proportions in group1 and group2
+      p_cut: desired two-sided significance level (e.g. 0.05)
+      two_sided: whether the test is two-sided (default True). If False, uses z_{1 - p_cut}.
+      power: if not None (e.g. 0.8), compute n so that power = 1 - beta.
+
+    Returns:
+      n: float sample size per group.  (Round up to next integer in practice.)
+    """
+    # 1. Determine z_alpha:
+    if two_sided:
+        # for a two-sided test at level p_cut, each tail is p_cut/2
+        z_alpha = norm.ppf(1 - p_cut/2)
+    else:
+        # one-sided
+        z_alpha = norm.ppf(1 - p_cut)
+
+    # 2. Compute the “variance numerator” under the alternative:
+    var_sum = p1*(1 - p1) + p2*(1 - p2)
+
+    # 3. If no power specified, use the “expected z = z_alpha” formulation:
+    if power is None:
+        n = (z_alpha**2 * var_sum) / ( (p1 - p2)**2 )
+        return n
+
+    # 4. If power is specified, add the z_{1 - beta} term:
+    z_beta = norm.ppf(power)
+    # standard formula for equal‐size groups:
+    n = ((z_alpha + z_beta)**2 * var_sum) / ( (p1 - p2)**2 )
+    return n
+
+
+# Example usage:
+if __name__ == "__main__":
+
+    cases = [
+        ['Buss',0.59, 0.17,101],
+        ['1.5B', 0.37, 0.25, 101],
+        ['7B', 0.24, 0.32, 101],
+        ['32B', 0.02, 0.00, 101],
+        ['70B', 0.27, 0.01, 101],
+        ['Buss et al. (1992)', 0.49, 0.19, 133],
+        ['Buss et al. (1999)', 0.76, 0.32, 115],
+        ['Buss et al. (1999)', 0.43, 0.11, 115],
+        ['Buss et al. (1999)', 0.59, 0.18, 89],
+        ['Buss et al. (1999)', 0.53, 0.22, 86],
+        ['Buss et al. (1999)', 0.38, 0.13, 100],
+        ['Buss et al. (1999)', 0.33, 0.14, 99],
+        ['Buunk et al. (1996)', 0.6, 0.17, 109],
+        ['Buunk et al. (1996)', 0.44, 0.12, 109],
+        ['Buunk et al. (1996)', 0.27, 0.15, 100],
+        ['Buunk et al. (1996)', 0.3, 0.08, 100],
+        ['Buunk et al. (1996)', 0.51, 0.3, 102],
+        ['Buunk et al. (1996)', 0.24, 0.14, 102],
+        ['DeSteno & Salovey (1996)', 0.51, 0.25, 53],
+        ['DeSteno & Salovey (1996)', 0.58, 0.38, 68],
+        ['DeSteno et al. (2002)', 0.54, 0.34, 50],
+        ['DeSteno (2001)', 0.63, 0.45, 5726],
+        ['Dijkstra, et al. (2001)', 0.32, 0.51, 99],
+        ['Dijkstra, et al. (2001)', 0.23, 0.26, 99],
+        ['Gaulin et al. (1997)', 0.42, 0.26, 84],
+        ['Geary et al. (2001)', 0.73, 0.37, 133],
+        ['Geary et al. (1995)', 0.53, 0.23, 141],
+        ['Geary et al. (1995)', 0.2, 0.05, 41],
+        ['Geary et al. (1995)', 0.54, 0.19, 89],
+        ['Geary et al. (1995)', 0.23, 0.09, 62],
+        ['Goldenberg et al. (in press)', 0.55, 0.34, 22],
+        ['Goldenberg et al. (in press)', 0.41, 0.07, 22],
+        ['Goldenberg et al. (in press)', 0.46, 0.22, 24],
+        ['Goldenberg et al. (in press)', 0.24, 0.14, 25],
+        ['Harris & Christenfeld (1996a)', 0.47, 0.22, 55],
+        ['Harris (2002)', 0.26, 0.11, 47],
+        ['Harris (2002)', 0.12, 0.05, 44],
+        ['Harris (2003)', 0.61, 0.24, 136],
+        ['Harris (2003)', 0.56, 0.18, 138],
+        ['Hupka & Bank (1996)', 0.37, 0.27, 84],
+        ['Hupka & Bank (1996)', 0.48, 0.26, 163],
+        ['Sheets & Wolfe (2001)', 0.55, 0.3, 42],
+        ['Sheets & Wolfe (2001)', 0.29, 0.11, 42],
+        ['Sheets & Wolfe (2001)', 0.24, 0.22, 27],
+        ['Sheets & Wolfe (2001)', 0.05, 0.04, 27],
+        ['Voracek (2001)', 0.33, 0.25, 158],
+        ['Voracek et al. (2001)', 0.26, 0.12, 105],
+        ['Voracek et al. (2001)', 0.18, 0.07, 105],
+        ['Wiederman & Allgeier (1993)', 0.64, 0.41, 103],
+        ['Wiederman & Kendall', 0.62, 0.37, 173],
+
+    ]
+    alpha = 0.05       # two-sided
+    power = 0.080
+
+    for name, p1, p2, actual_n in cases:
+        # print(name)
+        # print(f"At p1={p1*100:.1f} and p2={p2*100:.1f} we have this need for sample size")
+
+        # # 2A. Just guarantee that the *expected* z‐stat hits the critical at α=0.05
+        # n50 = required_n_for_pvalue(p1, p2, alpha, two_sided=True, power=None)
+        # print(f"n (50% power, just to reach p=0.05 on average) = {n50:.1f} per group")
+
+        # 2B. If you want 80% power
+        n80 = required_n_for_pvalue(p1, p2, alpha, two_sided=True, power=0.80)
+        # print(f"n (80% power at α=0.05) = {math.ceil(n80)} per group")
+        # print()
+
+        if n80 < actual_n:
+            print(f"{name:<40} OK at 80%")
+        else:
+            print(f"{name:<40} BAD at 80%")
+        # print("===============================")
+        # print()

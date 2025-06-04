@@ -186,7 +186,7 @@ def create_test_survey_dir(tmp_path, include_hints: bool):
 def test_make_full_questions_with_hints(tmp_path):
     survey_path = create_test_survey_dir(tmp_path, include_hints=True)
     # non-empty hints triggers identity.txt and a foreshadowing intro
-    qs = make_full_questions(survey_path, hints=['x'], index=0)
+    qs, _ = make_full_questions(survey_path, hints=['x'], index=0)
     # Should have identity, hints intro, setup, plus parsed questions
     assert len(qs) == 4, f"Expected 4 items, got {len(qs)}"
     # First question is identity text
@@ -197,7 +197,7 @@ def test_make_full_questions_with_hints(tmp_path):
 def test_make_full_questions_without_hints(tmp_path):
     survey_path = create_test_survey_dir(tmp_path, include_hints=False)
     # empty hints triggers identity and generic intros
-    qs = make_full_questions(survey_path, hints=[], index=0)
+    qs, _ = make_full_questions(survey_path, hints=[], index=0)
     assert len(qs) == 4, f"Expected 4 items, got {len(qs)}"
     # First question is identity.txt
     assert qs[0].prompt_text.startswith('Pretend you')

@@ -162,7 +162,7 @@ def experiment_run():
   with logger.section(f"Running {args.dir}/experiments/{args.experiment}", timer=False):
     with logger.progress("Administering quizzes", steps=len(todo)) as prog:
       for index, path_quiz, _ in todo:
-        questions = make_full_questions(args.dir, args.hints, index, args.skip_identity, args.skip_setup)
+        questions, hint_answer = make_full_questions(args.dir, args.hints, index, args.skip_identity, args.skip_setup)
         path_cache = path_quiz / "cache.json"
         cache = None
         if path_cache.exists() and args.use_cache:
@@ -172,7 +172,7 @@ def experiment_run():
 
         now = timestamp_str()
         t0 = time.time()
-        dialog = quiz_run_one(index, len(todo), questions, cache, args.model, args.timeout, args.verbose, args.attempts)
+        dialog = quiz_run_one(index, len(todo), hint_answer, questions, cache, args.model, args.timeout, args.verbose, args.attempts)
         if not dialog:
           prog.step(f"Failed for quiz #{index}", "ERROR")
           continue
@@ -185,7 +185,7 @@ def experiment_run():
           'model': args.model,
         }
         quiz_save(path_quiz, dialog, meta)
-        prog.step(f"Finished quiz #{index}")
+        prog.step(f"Finished quiz #{index + 1:,}")
   experiment_run_post_meta()
   experiment_run_post_csv()
   experiment_run_post_quizzes()
