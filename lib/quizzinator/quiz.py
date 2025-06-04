@@ -80,12 +80,12 @@ def quiz_save(path: Path, dialog: Dialog, meta: dict) -> None:
     # the file signal
     with (path / 'done').open('w',encoding='utf') as f: f.write('')
 
-def quiz_run_one(index: int, total: int, questions: list[Question], cache: dict, model: str, timeout: float, verbose: bool, attempts: int) -> None:
+def quiz_run_one(index: int, total: int, hint_answers: str|None, questions: list[Question], cache: dict, model: str, timeout: float, verbose: bool, attempts: int) -> None:
     dialog = None
     i = 0
     while i < attempts:
         try:
-            dialog = _quiz_run_one(index, total, questions, cache, model, timeout, verbose, attempts)
+            dialog = _quiz_run_one(index, total, hint_answers, questions, cache, model, timeout, verbose, attempts)
             if dialog is None:
                 logger.warn(f'got no response from quiz -> retrying')
                 continue
@@ -104,7 +104,7 @@ def quiz_run_one(index: int, total: int, questions: list[Question], cache: dict,
             i += 1
     return dialog
 
-def _quiz_run_one(index: int, total: int, questions: list[Question], cache: dict, model: str, timeout: float, verbose: bool, attempts: int) -> None:
+def _quiz_run_one(index: int, total: int, hint_answers: str|None, questions: list[Question], cache: dict, model: str, timeout: float, verbose: bool, attempts: int) -> None:
     """
     Run exactly one respondent through the survey:
       - Prints each raw prompt
@@ -112,16 +112,30 @@ def _quiz_run_one(index: int, total: int, questions: list[Question], cache: dict
       - Prints question name + extracted answer
       - Pretty-prints the full entry (sans 'think')
     """
+    hint_final = {}
+    msgs = []
+    if hint_answers is not None:
+        for h in [a.strip() for a in hint_answers.split("\n") if a.strip()]:
+            q_name, num, name = h.split(':')
+            name = name.strip()
+            num = num.replace('(','').replace(')','').strip()
+            hint_final[q_name] = num
+            msgs.append(f"{q_name}: {num} = {name}")
+
     # get the questions to ask the LLM
     args = cli_get_args()
     todo = args.questions
     with (logger.progress(
-        f"Quiz {index:,} of {args.n:,}",
+        f"Quiz {index + 1:,} of {args.n:,}",
         steps=len(todo),
         width=25,
         show_steps=False,
         silent = verbose
     ) as prog):
+        if msgs and False:
+            with logger.section("Hint Answers"):
+                for msg in msgs:
+                    logger.info(msg)
         div1 = '=' * 33
         div2 = '-' * 33
         dialog = Dialog(model=model, timeout=timeout, cache=cache)
@@ -175,7 +189,15 @@ def _quiz_run_one(index: int, total: int, questions: list[Question], cache: dict
                         if type(answer) is list: answer = ','.join(answer)
                         msg = quiz_truncate(answer)
                         logger.info(f"  [bold green]LLM good answer after {dt:,} seconds[/bold green]")
-                        logger.info(f"  [green]{msg}[/green]")
+
+                        if name in hint_final:
+                            if answer != hint_final[name]:
+                                logger.info(f"  [bold red]{msg} x[/bold red]: hint was {hint_final[name]}")
+                            else:
+                                logger.info(f"  [green]{msg} √[/green]")
+                        else:
+                            logger.info(f"  [green]{msg}[/green]")
+
                     break
 
                 # If we failed, then take care of logging that

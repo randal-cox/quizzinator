@@ -1,6 +1,4 @@
-import re
-import os
-import csv
+import re, os, csv, copy
 
 from dataclasses import dataclass
 from typing import List, Optional, Tuple
@@ -101,6 +99,7 @@ def load_hints(
     ]
 
     hints: List[str] = []
+    short_responses: List[str] = []
     for human in humans:
         lines: List[str] = [
             '=' * 100 + "\n"
@@ -115,9 +114,11 @@ def load_hints(
             if not question.options:
                 # Free-text question
                 lines.append(f"Your answer: {answer or 'No answer'}\n")
+                short_responses.append(f"{question.name}: No Answer")
             else:
                 if not answer:
                     lines.append("You did not answer\n")
+                    short_responses.append(f"{question.name}: No Answer")
                 else:
                     codes = [a.strip() for a in answer.split(',')]
                     responses: List[str] = []
@@ -130,8 +131,10 @@ def load_hints(
 
                     if len(responses) > 1:
                         lines.append(f"You answered {','.join(responses)}\n")
+                        short_responses.append(f"{question.name}: " + ','.join(responses))
                     else:
                         lines.append(f"You answered {responses[0]}")
+                        short_responses.append(f"{question.name}: " + responses[0])
 
             # Separator between questions
             lines.append('-' * 100 + "\n\n")
@@ -150,7 +153,7 @@ def load_hints(
 
         hints.append("\n".join(lines))
 
-    return hints
+    return hints, short_responses
 
 def build_question(question):
     """
@@ -231,9 +234,16 @@ def make_full_questions(
     # locate files
     qfile = os.path.join(dir, "questions.txt")
 
+    # get the hints and the answers
+    hint_text, hint_answers = load_hints(
+        os.path.join(dir, "hints.csv"),
+        os.path.join(dir, "questions.txt"),
+        columns=tuple(hints)
+    )
 
     # create the intial 'question' that just gives the LLM context
     q0 = []
+    hint_answer = None
     if not skip_identity:
         # you are a human taking a test
         q0.append(open(os.path.join(dir, "setup", "human.txt"), encoding="utf-8").read())
@@ -241,12 +251,9 @@ def make_full_questions(
         # you are a human with randomly identity features or ones matched up to our hints file
         prompt = open(os.path.join(dir, "setup", "identity.txt"), encoding="utf-8").read()
         if len(hints) > 0:
-            hints = load_hints(
-                os.path.join(dir, "hints.csv"),
-                os.path.join(dir, "questions.txt"),
-                columns=tuple(hints)
-            )
-            prompt = hints[index % len(hints)]
+            mod_index = index % len(hint_text)
+            prompt = hint_text[mod_index]
+            hint_answer = hint_answers[mod_index]
         q0.append(prompt)
 
         # don't make up questions
@@ -258,8 +265,9 @@ def make_full_questions(
         prompt = open(os.path.join(dir, "setup", "consent.txt"), encoding="utf-8").read()
         q0.append(prompt)
 
-    # put the context inside the first question - this is an effeciency thing
+    # put the context inside the first question - this is an efficiency thing
     q0 = "\n".join(q0) + ("\n====================\n\n")
-    questions = parse_questions(qfile)
+    questions = copy.deepcopy(parse_questions(qfile))
     questions[0].prompt_text = q0 + questions[0].prompt_text
-    return questions
+
+    return questions, hint_answer
