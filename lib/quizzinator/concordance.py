@@ -5,7 +5,7 @@ from .logging import logger
 from .utils import pp
 from .cli import cli_log_args, cli_set_args, cli_get_args
 from .questions import parse_questions
-from .answers import evaluate_role_consistency
+from .answers import evaluate_role_consistency, evaluate_gender_consistency
 
 
 def concordance_cli_args():
@@ -61,33 +61,19 @@ def concordance_main():
     'all': 0,
   }
   for hint in args.hints:
-    print(hint)
     for llm, human in list(zip(responses, cycled_humans)):
       human_response = set(human[hint].split(','))
       llm_response = set(llm[hint].replace(',','-').replace('[','').replace(']','').replace("'",'').split('-'))
 
-      counts['all'] = counts.get('all',0) + 1
-
-      # # exact match
-      # if human_response == llm_response:
-      #   counts['exact'] = counts.get('exact', 0) + 1
-      #   print(f" matched with {len(human_response)} answers")
-      #   print()
-      #   continue
-
       # look for consistency
-      a = evaluate_role_consistency(set(human_response), set(llm_response))
-      print(f" {a}")
-      if a == 'exact match':
-        w = 'exact'
-      elif a in ['semantically close', 'partial match']:
-        w = 'close'
-      elif a in ['contradiction', 'unrelated']:
-        w = 'mismatch'
+      if hint == 'Roles':
+        a = evaluate_role_consistency(set(human_response), set(llm_response))
+      elif hint == 'Gender':
+        a = evaluate_gender_consistency(set(human_response), set(llm_response))
       else:
-        print(f"unexpected matching {a}")
-
-      counts[w] = counts.get(w,0) + 1
+        raise Exception(f'Unknown hint type: {hint}')
+      counts[a] = counts.get(a,0) + 1
+      counts['all'] = counts.get('all',0) + 1
 
       # a nice display for the differences
       q = questions[hint]
@@ -97,6 +83,7 @@ def concordance_main():
       all_answers = list(all_answers)
       all_answers = [a for a in all_answers if a != '']
       all_answers = sorted(all_answers, key=int)
+      print(a)
       for answer in all_answers:
         msg = f'{answer:>2s}: '
         msg += 'h' if answer in human_response else '_'
@@ -111,7 +98,7 @@ def concordance_main():
 
   print("==================================")
   print(f"{'Total':<30s}\t{counts['all']}")
-  print(f"{'Exact':<30s}\t{counts['exact']}\t{100 * counts['exact'] / counts['all']:.1f}")
-  close_cum = counts['exact'] + counts['close']
-  print(f"{'Close':<30s}\t{close_cum}\t{100 * close_cum / counts['all']:.1f}")
-  print(f"{'Mismatch':<30s}\t{counts['mismatch']}\t{100 * counts['mismatch'] / counts['all']:.1f}")
+  print(f"{'Exact':<30s}\t{counts.get('exact',0)}\t{100 * counts.get('exact',0) / counts['all']:.1f}")
+  close_cum = counts.get('exact',0) + counts.get('concordant',0)
+  print(f"{'Concordant':<30s}\t{close_cum}\t{100 * close_cum / counts['all']:.1f}")
+  print(f"{'Discordant':<30s}\t{counts['discordant']}\t{100 * counts.get('discordant',0) / counts['all']:.1f}")
