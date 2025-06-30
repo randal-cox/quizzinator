@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+
+    <h1 id="title"></h1>
+
+    <div class="containers">
+        <div id="experiments-container" class="checkbox-container">
+            <h2>Experiments</h2>
+            <!-- checkboxes for the experiments will be appended here -->
+        </div>
+
+        <div id="questions-container" class="checkbox-container">
+            <h2>Common Questions</h2>
+            <div id="questions-list"></div>
+        </div>
+    </div>
+
+    <hr>
+    <button onclick="utils_save_div('content-div', 'responses')" id="save-btn">Save Freqs</button>
+    <button onclick="utils_save_div('multi-div', 'multiples')" id="save-btn">Save Multis</button>
+
+    <h2>Response Frequency Histograms</h2>
+    <div id="content-div">
+        Should be stuff here
+    </div>
+
+    <hr>
+
+    <h2>Multi-Answer Histograms</h2>
+    <div id="multi-div">
+        Should be stuff here
+    </div>
+
+    <h2>Raw Data</h2>
+    <div id="raw-data-container"></div>
+
+    <script>document.quizzinator = {};</script>
+    <script src="data.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

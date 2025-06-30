@@ -1,7 +1,48 @@
 ##!/usr/bin/env bash
 
+
+# with either Roles or Gender given as a prompt
+for e in Gender
+do
+  for m in 1.5 7 32
+  do
+    echo "🚀 Running ${e} echo for deepseek model ${m}B"
+    ./bin/experiment \
+      --hints ${e} \
+      --verbose  \
+      --experiment ${e}_${m}B \
+      --model deepseek-r1:${m}B \
+      --timeout 600 \
+      --attempts 2 \
+      --n 100 \
+      --questions PuPSafeword,RRSafeword,${e} \
+      data/consent
+    echo
+  done
+done
+
+echo "!!! exiting for debugging"
+exit
+
+echo "🚀 Running concordance testing"
+for m in 1.5 7 32 70
+do
+  for h in Roles Gender
+  do
+    export name="${h}_${m}B"
+    ./bin/concordance data/consent \
+      --experiment $name \
+      --hints ${h} \
+      > figures/concordance/${name}.txt
+    echo "  ${name}"
+  done
+done
+
+echo "!!! exiting for debugging"
+exit
+
 ###############################################################
-# This is what we run for the paper
+# This is what we run for the paper that describes Quizzinator
 ###############################################################
 
 ###############################################################
@@ -57,8 +98,8 @@ echo "🚀 Running partial human data"
 ./bin/experiment \
   --from-hints \
   --verbose \
-  --experiment Humans_66 \
-  --n 66 \
+  --experiment Humans_100 \
+  --n 100 \
   data/jealousy
 echo
 
@@ -78,11 +119,10 @@ do
       --model deepseek-r1:${m}B \
       --timeout 600 \
       --attempts 2 \
-      --n 66 \
+      --n 100 \
       --questions PuPSafeword,RRSafeword,${e} \
       data/consent
     echo
-    #echo "time ./bin/experiment -hints ${e} --verbose  --experiment matched_${e}_${m}B --model deepseek-r1:${m}B --timeout 600  --attempts 2 --n 66 --questions PuPSafeword,RRSafeword,${e} data/echo"
   done
 done
 
@@ -99,17 +139,23 @@ echo "🚀 Running partial human data"
 ./bin/experiment \
   --from-hints \
   --verbose \
-  --experiment Humans_66 \
-  --n 66 \
+  --experiment Humans_100 \
+  --n 100 \
   data/consent
 echo
 
 # Get concordance between the prompt and the LLM response
+# Get concordance between the prompt and the LLM response
+echo "🚀 Running concordance testing"
 for m in 1.5 7 32 70
 do
-  ./bin/concordance data/consent \
-    --experiment Roles_${m}B \
-    --hints Roles \
-    > figures/concordance/${m}B.txt
-  echo figures/concordance/${m}B.txt
+  for h in Roles Gender
+  do
+    export name="${h}_${m}B"
+    ./bin/concordance data/consent \
+      --experiment $name \
+      --hints ${h} \
+      > figures/concordance/${name}.txt
+    echo "  ${name}"
+  done
 done
