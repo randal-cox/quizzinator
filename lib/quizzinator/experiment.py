@@ -521,7 +521,9 @@ def experiment_main():
   with open(path_html / 'data.js', 'w') as f:
     f.write('document.quizzinator.data = ' + json.dumps(dict_data, indent=4) + ';')
 
-  # TODO: copy to html from templates folder
-  #  index.html
-  #  script.js
-  #  styles.css
+  # write the js, html, and css files
+  src_dir = Path(__file__).parent / "templates" / "project"
+  for src_path in src_dir.iterdir():
+    if src_path.is_file():
+      dst_path = Path(path_html) / src_path.name
+      shutil.copy(src_path, dst_path)

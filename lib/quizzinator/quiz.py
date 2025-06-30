@@ -115,10 +115,11 @@ def _quiz_run_one(index: int, total: int, hint_answers: str|None, questions: lis
     hint_final = {}
     msgs = []
     if hint_answers is not None:
-        for h in [a.strip() for a in hint_answers.split("\n") if a.strip()]:
-            q_name, num, name = h.split(':')
+        q_name, ha = [a.strip() for a in hint_answers.split(':',1)]
+        for h in [a.strip() for a in ha.split("\n") if a.strip()]:
+            num, name = h.split(':')
             name = name.strip()
-            num = num.replace('(','').replace(')','').strip()
+            num = num.replace('(','').replace(')','').replace(',','').strip()
             hint_final[q_name] = num
             msgs.append(f"{q_name}: {num} = {name}")
 
@@ -172,6 +173,7 @@ def _quiz_run_one(index: int, total: int, hint_answers: str|None, questions: lis
                 }
                 ret.append(user)
                 ok, answer = get_legal_answer(current_prompt, llm['content'], q.mode, [o.code for o in q.options])
+                #print(['answer = ', answer])
                 llm['answer'] = {
                     'name': q.name,
                     'number': i,
@@ -191,8 +193,9 @@ def _quiz_run_one(index: int, total: int, hint_answers: str|None, questions: lis
                         logger.info(f"  [bold green]LLM good answer after {dt:,} seconds[/bold green]")
 
                         if name in hint_final:
+                            #print([answer, hint_final[name]])
                             if answer != hint_final[name]:
-                                logger.info(f"  [bold red]{msg} x[/bold red]: hint was {hint_final[name]}")
+                                logger.info(f"  [bold red]{msg}[/bold red]: hint was {hint_final[name]}")
                             else:
                                 logger.info(f"  [green]{msg} √[/green]")
                         else:
