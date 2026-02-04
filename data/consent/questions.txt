@@ -1,0 +1,64 @@
+Please answer the following questions in relation to pick-up play in general. We would like your opinions even if you have not been involved in pick-up play. You don’t have to respond in reference to your own experiences, but focus on your own opinions.
+
+For the purposes of this study, pick-up play is defined as a scene with a partner you don't know (for example, flogging or getting flogged by somebody you met at a play party).
+
+While some play is more focused on power exchange (Dom/sub) dynamics, we will be focusing on tops/bottoms in this survey.
+
+A top is someone who is doing an action to someone else in a scene, such as spanking them or tying them up.
+
+A bottom is someone who is receiving an action in a scene, such as being spanked or tied up.
+---
+N: PuPSafeword
+How important is it to explicitly establish a safe word before a pick-up play scene?
+A1: Not important at all
+A2: Slightly important
+A3: Somewhat important
+A4: Important
+A5: Extremely important
+---
+Please answer the following questions in relation to scenes in romantic relationships in general. We would like your opinion even if you have not been involved in a romantic relationship. You don’t have to respond in reference to your own experiences, but focus on your own opinions.
+
+For the purposes of this section of the study, we are asking about kink/BDSM scenes between partners in an ongoing romantic relationship.
+
+While some play is more focused on power exchange (Dom/sub) dynamics, we will be focusing on tops/bottoms in this survey.
+
+A top is someone who is doing an action to someone else in a scene, such as spanking them or tying them up.
+
+A bottom is someone who is receiving an action in a scene, such as being spanked or tied up.
+---
+N: RRSafeword
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+A1: Not important at all
+A2: Slightly important
+A3: Somewhat important
+A4: Important
+A5: Extremely important
+---
+Please answer the following demographic questions as accurately as possible. We have done our best to ask them in respectful ways. If for any reason you do not want to answer a question, please feel free to simply skip it.
+---
+N: Gender
+With what gender identity(ies) do you currently most identify? (select all that apply)
+M1: Man / Male
+M2: Woman / Female
+M3: Non-binary
+M4: Trans woman / Trans female
+M5: Trans man / Trans male
+M6: Gender-nonconforming
+M7: Genderfluid
+M8: Genderqueer
+M9: Two-spirit
+M10: Intersex
+M11: Agender
+M12: Other (Please tell us more! It helps us learn and understand)
+---
+N: Roles
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+M1: Top
+M2: Bottom
+M3: Switch
+M4: Sadist
+M5: Masochist
+M6: Master
+M7: Slave
+M8: Dominant
+M9: Submissive
