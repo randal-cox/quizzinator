@@ -1,5 +1,11 @@
+/.idea/
+/venv/
+
+/*/__pycache__/
+
 /data/*/experiments/
 /data/*/comparisons/
 /data/*/html/
+
 /figures/
-/venv/
+
