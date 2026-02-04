@@ -1,0 +1,11 @@
+N: Gender
+What is your sex?
+A1: Male
+A2: Female
+---
+N: Jealousy
+Please think of a serious committed romantic relationship that you have had in the past, that you currently have, or that you would like to have. Imagine that you discover that the person with whom you've been seriously involved became interested in someone else.
+What would distress or upset you more (please circle only one)
+A1: Imagining your partner forming a deep emotional attachment to that person.
+A2: Imagining your partner enjoying passionate sexual intercourse with that other person.
+---
