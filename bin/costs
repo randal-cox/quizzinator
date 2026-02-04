@@ -1,0 +1,129 @@
+#!venv/bin/python3.12
+
+import os
+import json
+from pathlib import Path
+from statistics import mean, stdev
+from collections import defaultdict
+import tiktoken
+
+# === Cost Constants ===
+COST_PER_MILLION_INPUT = 0.27
+COST_PER_MILLION_OUTPUT = 1.10
+
+# Tokenizer (GPT-3.5 as approximation for DeepSeek)
+encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")
+
+def count_tokens(text):
+    return len(encoding.encode(text))
+
+def compute_cost(input_tokens, output_tokens):
+    return (input_tokens * COST_PER_MILLION_INPUT + output_tokens * COST_PER_MILLION_OUTPUT) / 1_000_000
+
+# === Results Structures ===
+group_data = defaultdict(lambda: {
+    "inputs": [],
+    "outputs": [],
+    "costs": [],
+    "experiments": []
+})
+overall_inputs = []
+overall_outputs = []
+overall_costs = []
+
+# === Process Experiments ===
+base_path = Path("data")
+
+for experiment_dir in base_path.glob("*/experiments/*"):
+    quizzes_path = experiment_dir / "quizzes"
+    if not quizzes_path.is_dir():
+        continue
+
+    # group is first part after data/
+    group = experiment_dir.parts[1]
+
+    input_lengths = []
+    output_lengths = []
+    quiz_costs = []
+
+    for quiz_folder in quizzes_path.iterdir():
+        history_file = quiz_folder / "history.json"
+        if not history_file.is_file():
+            print(f"Missing history.json in {quiz_folder}")
+            continue
+
+        try:
+            with open(history_file, "r", encoding="utf-8") as f:
+                history = json.load(f)
+
+            input_tokens = 0
+            output_tokens = 0
+
+            for entry in history:
+                if "raw" in entry and "role" in entry:
+                    token_count = count_tokens(entry["raw"])
+                    if entry["role"] == "user":
+                        input_tokens += token_count
+                    else:
+                        output_tokens += token_count
+
+            if input_tokens + output_tokens > 0:
+                input_lengths.append(input_tokens)
+                output_lengths.append(output_tokens)
+                cost = compute_cost(input_tokens, output_tokens)
+                quiz_costs.append(cost)
+
+                group_data[group]["inputs"].append(input_tokens)
+                group_data[group]["outputs"].append(output_tokens)
+                group_data[group]["costs"].append(cost)
+
+                overall_inputs.append(input_tokens)
+                overall_outputs.append(output_tokens)
+                overall_costs.append(cost)
+
+        except Exception as e:
+            print(f"Failed to read {history_file}: {e}")
+
+    if input_lengths and output_lengths:
+        avg_input = round(mean(input_lengths), 1)
+        std_input = round(stdev(input_lengths), 1) if len(input_lengths) > 1 else 0
+        avg_output = round(mean(output_lengths), 1)
+        std_output = round(stdev(output_lengths), 1) if len(output_lengths) > 1 else 0
+        avg_cost = round(mean(quiz_costs), 5)
+        std_cost = round(stdev(quiz_costs), 5) if len(quiz_costs) > 1 else 0
+
+        group_data[group]["experiments"].append({
+            "experiment": str(experiment_dir),
+            "avg_input": avg_input,
+            "std_input": std_input,
+            "avg_output": avg_output,
+            "std_output": std_output,
+            "avg_cost": avg_cost,
+            "std_cost": std_cost
+        })
+
+# === Print Output ===
+print("experiment\tAvg_Input\tStd_Input\tAvg_Output\tStd_Output\tAvg_Cost\tStd_Cost")
+
+for group, data in group_data.items():
+    for exp in data["experiments"]:
+        print(f"{exp['experiment']}\t{exp['avg_input']}\t{exp['std_input']}\t{exp['avg_output']}\t{exp['std_output']}\t{exp['avg_cost']}\t{exp['std_cost']}")
+
+    if data["inputs"]:
+        g_avg_input = round(mean(data["inputs"]), 1)
+        g_std_input = round(stdev(data["inputs"]), 1) if len(data["inputs"]) > 1 else 0
+        g_avg_output = round(mean(data["outputs"]), 1)
+        g_std_output = round(stdev(data["outputs"]), 1) if len(data["outputs"]) > 1 else 0
+        g_avg_cost = round(mean(data["costs"]), 5)
+        g_std_cost = round(stdev(data["costs"]), 5) if len(data["costs"]) > 1 else 0
+        print(f"ALL {group}\t{g_avg_input}\t{g_std_input}\t{g_avg_output}\t{g_std_output}\t{g_avg_cost}\t{g_std_cost}")
+
+# === Overall Summary ===
+if overall_inputs:
+    o_avg_input = round(mean(overall_inputs), 1)
+    o_std_input = round(stdev(overall_inputs), 1) if len(overall_inputs) > 1 else 0
+    o_avg_output = round(mean(overall_outputs), 1)
+    o_std_output = round(stdev(overall_outputs), 1) if len(overall_outputs) > 1 else 0
+    o_avg_cost = round(mean(overall_costs), 5)
+    o_std_cost = round(stdev(overall_costs), 5) if len(overall_costs) > 1 else 0
+    print(f"ALL\t{o_avg_input}\t{o_std_input}\t{o_avg_output}\t{o_std_output}\t{o_avg_cost}\t{o_std_cost}")

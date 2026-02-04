@@ -6,3 +6,4 @@ pexpect
 rich
 pandas
 scipy
+tiktoken

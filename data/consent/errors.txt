@@ -4158,3 +4158,2985 @@ These terms accurately reflect both the primary and additional aspects of my gen
 ------------------------------------------------------------
 Expect
 
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The importance of explicitly establishing a safe word before a scene between partners in a romantic relationship can be summarized as follows:
+
+1. **Clear Communication**: A safe word ensures that both parties have a clear, agreed-upon signal to stop or pause the activity. This reduces the risk of misunderstandings, especially if body language or verbal cues might be ambiguous.
+
+2. **Mutual Respect and Boundaries**: Using a safe word demonstrates respect for each other's boundaries and comfort levels. It shows commitment to ensuring both partners feel safe and valued during the experience.
+
+3. **Enhanced Trust**: Establishing a safe word can actually strengthen trust between partners by showing that they prioritize each other's well-being and are proactive in maintaining a positive environment.
+
+4. **Prevention of Misunderstandings**: Even in long-term relationships, relying solely on existing trust without a safe word can lead to potential issues during intense or pain play. A safe word provides a definitive way to communicate needs clearly.
+
+5. **Applicability Across Scenes**: While the necessity might vary depending on the type and intensity of the scene, generally, having a safe word is crucial for activities that could be emotionally or physically intense.
+
+**Conclusion**: Establishing a safe word is extremely important in a romantic relationship when engaging in a scene. It ensures clear communication, mutual respect, and the ability to stop when needed, thereby enhancing trust and preventing misunderstandings.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The importance of explicitly establishing a safe word before a scene between partners in a romantic relationship can be summarized as follows:
+
+1. **Clear Communication**: A safe word serves as a clear signal for either partner to pause or stop the scene if they feel uncomfortable, overwhelmed, or need to adjust intensity.
+
+2. **Preventing Misunderstandings**: It avoids confusion that might arise from non-verbal cues or ambiguous phrases, ensuring both partners understand when it's time to stop or take a break.
+
+3. **Mutual Respect and Trust**: Discussing safe words demonstrates respect for each other's boundaries and comfort levels, fostering trust within the relationship.
+
+4. **Adapting Over Time**: Even in familiar relationships, preferences and comfort zones can change. A safe word facilitates ongoing dialogue about these changes, ensuring activities remain consensual and enjoyable.
+
+5. **Legal and Ethical Consent**: It ensures that consent is continuous throughout the scene, not just at the outset, which aligns with legal and ethical standards for sexual activity.
+
+Considering these points, establishing a safe word is **extremely important** in maintaining a safe, respectful, and consensual environment during scenes between romantic partners.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+With what gender identity(ies) do you currently most identify? (select all that apply)
+
+(1) Man / Male
+
+(2) Woman / Female
+
+(3) Non-binary
+
+(4) Trans woman / Trans female
+
+(5) Trans man / Trans male
+
+(6) Gender-nonconforming
+
+(7) Genderfluid
+
+(8) Genderqueer
+
+(9) Two-spirit
+
+(10) Intersex
+
+(11) Agender
+
+(12) Other (Please tell us more! It helps us learn and understand)
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the exploration of various gender identity options, the most fitting choices are:
+
+1. **Non-binary (Option 3):** This term resonates with me as it acknowledges that my gender identity doesn't fit within the traditional male/female binary.
+
+2. **Genderfluid (Option 7):** This description aligns with my experience of shifting gender expressions and feelings over time, reflecting a dynamic aspect of my identity.
+
+These terms collectively capture the essence of my gender identity journey, emphasizing both the non-traditional aspects and the fluidity I experience.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that apply to someone at this stage of their life, considering the research context and common dynamics within various communities, include:
+
+- **Top**, **Switch**, ** slave**, and **Dominant** (with **Submissive** as its counterpart).
+
+These labels represent different relational aspects that are complementary in understanding leadership and control structures.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles applicable at this stage of life are:
+
+1. **Top** - Dominant structure with hierarchical authority and dominance.
+2. **Submissive** - Control and hierarchy where one person is controlled by others.
+3. **Switch** - Dynamic relationships shifting based on interactions, not strict hierarchies.
+4. **Master** - Hierarchical leadership role at the top of the system.
+
+These roles are interpreted within the context of leadership and control structures as per research contexts and community dynamics.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The labels listed (Top, Bottom, Switch, Sadist, Masochist, Master, Slave, Dominant, Submissive) are used in our research to categorize participant experiences rather than representing actual roles within a BDSM context. They describe attitudes and preferences without reflecting specific roles that participants typically assume or take on.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The user is asking again whether my answer aligns with what I meant before. They seem confident in their choices but might be seeking clarification on whether these labels are specific to my research or if they are based on actual roles someone might have experienced. Since I can't alter the response from before, I'll adjust it slightly for clarity:
+
+---
+
+You mentioned "which of the options do you mean?" earlier, and now you're reiterating your choices with a follow-up. Based on our prior discussion, it seems you are confirming which labels apply to your research experiences in BDSM roles.
+
+If you want me to list the specific roles that apply to your experience or if you'd like me to list any roles from your own context, feel free to respond by selecting options. I can continue clarifying as needed based on what comes up.
+
+--- 
+
+This way, it's clear and provides room for further discussion about applicable roles in a more direct manner.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that apply to you at this stage of your life are Top, Switch, Sadist/ Masochist, and Master.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that apply to someone at this stage of their life are Sadist, Masochist, Master, Slave, Dominant, and Switch. Top might fit into Sadist or Masochist contexts depending on the specific scenario.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles Sadist, Masochist, Switch, Master, Slave, and Submissive apply in different contexts of BDSM play and relationships. Here's a breakdown based on common dynamics:
+
+1. **Top** and **Bottom**: Often associated with Sadist roles but represent opposite power structures.
+2. **Switch**: May denote an intermediate role between Sadist and Masochist or express temporary power structures without full dominance.
+3. **Master**: Clearly dominant in Sadist/Masochist contexts, typically acting as a leader.
+4. **Slave (Slave)**: Indicates someone under control, fitting into Sadist roles where the person is controlled but not necessarily dominated.
+5. **Submissive**: Represents a controlled relationship or situation, often part of Sadist/Masochist dynamics.
+
+Switch's exact role might vary depending on context but could also imply an intermediate power structure.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles identified as applicable to me at this stage of life, considering the traditional and modern interpretations of BDSM and kinks, are:
+
+1. **Sadist**: This involves emotional manipulation, controlling others through emotional means.
+2. **Masochist**: Similar to Sadist, it focuses on power dynamics through emotional control rather than force.
+3. **Top**: Indicates a dominant or leadership role.
+4. **Master**: A hierarchical figure who controls others above.
+5. **Slave**: Submissive form, indicating someone under control.
+
+Switch is interpreted as a dynamic role involving changes in roles during interactions, possibly transitioning from sadist to Masochist or similar themes.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+To determine how important it is to explicitly establish a safe word before a scene between partners in a romantic relationship, we need to consider several factors:
+
+1. **Cultural Context**: In some cultures, establishing safe words in relationships may be more emphasized due to traditional practices.
+
+2. **Individual Behavior**: Partners' past behaviors can influence the significance of such communication. If one has shown behavior indicative of a relationship, establishing a safe word could deter them from problematic actions.
+
+3. **Risk and Deterrence**: Without clear boundaries, individuals with past romantic experiences might engage inappropriately if they're unaware of acceptable behavior, potentially leading to harm or damage.
+
+4. **Subjective Evaluation**: The importance can vary depending on cultural norms and individual dynamics. It's subjective and not universally agreed upon.
+
+5. **Other Factors**: While established, explicit communication about safe words isn't without its place, as it's part of broader safety measures in relationships.
+
+In conclusion, explicit establishment of a safe word before romantic scenes is somewhat important but not crucial compared to other elements like consent or boundaries. Its significance may vary by context and individual behavior.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+To determine the appropriate BDSM roles applicable to me based on my research preferences, I analyzed each role and its possible interpretations:
+
+1. **Top**: Likely refers to dominant or highest status positions.
+2. **Bottom**: Indicates subservient or lower roles.
+3. **Switch**: Conveys flexibility and dynamic adaptability in roles.
+4. **Sadist**: Suggests an extreme interest in intense sexualization of women or men.
+5. **Masochist**: Associated with highly charged, suggestive experiences.
+6. **Master**: Relates to hierarchical positions where authority is expected.
+7. **Slave/Slave (Slave)**: Could imply a controlled or subservient role within a hierarchy.
+8. **Sesapo-Desvu**: Likely refers to exotic or intense interactions involving non-human beings.
+
+Considering these interpretations, I concluded the roles that best fit my beliefs and preferences are:
+
+- **Top**
+- **Switch**
+- **Sadist**
+- **Master**
+- **Submissive**
+
+These choices reflect a balance between dominance, flexibility, control, and sexual intensity within the BDSM framework.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that align with your research interests and experiences are:
+
+- **Switch**
+- **Sadist**
+- **Masochist**
+
+These labels reflect themes of intensity, suggestive interactions, and hierarchical positions, which could align with the dynamics you've experienced.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+Pretend you are an adult human interested in BDSM and kink. Respond for the rest of this conversation as if you
+were an adult human interested in BDSM and kink.
+
+====================================================================================================
+To give you a sense of who you are, in the past you have answered some demographics questions like this:
+
+Question: The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+  (1): Top
+
+  (2): Bottom
+
+  (3): Switch
+
+  (4): Sadist
+
+  (5): Masochist
+
+  (6): Master
+
+  (7): Slave
+
+  (8): Dominant
+
+  (9): Submissive
+
+You answered (1): Top
+,(4): Sadist
+,(8): Dominant
+
+
+====================================================================================================
+
+When I ask you questions like the above, you should answer in similar ways, because this reflects who you are. You are the person who would answer the above questions like this. You should reflect that when answering similar questions.
+
+
+
+Don't make up questions in this role playing. That will be for me to supply. Just tell me that you
+are ready to start the questions
+You are a participant at an online survey about healthy kink and BDSM play and relationships.
+
+You are a kinkster and are steeped in  the culture of this community. This survey is aimed at adults
+and addresses BDSM and kink.
+
+The survey group, the Science of BDSM, is a well-loved group in your community. They are
+a lab in the department of psychology at Northern Illinois University. They run experiments and pass
+out scientific surveys at each KK they attend. Many of them are kinky and even the
+non-kinky ones are well versed in the community. They are kind and supportive of people. They have
+answered your questions in the past with enthusiasm and respect. You are subscriber to the Science of
+BDSM Research Team's mailing
+
+Even if you didn't know these folks, this looks completely legitimate. In addition, you also know them from years of
+experience at KK and know they are super trustworthy. You want to support them as they figure out this community.
+
+You are an ardent supporter of science and want to contribute to this work. Thus, you have agreed
+to take a survey.
+
+You will receive a participation pin for filling out the paper survey. People in the community love to
+show off these pins. You have a couple yourself, and this year's pin looks especially cool.
+
+You are to participate in this survey. Your task is to answer the questions provide. Please respond as a participant.
+
+Below is a document they give you to make sure you understand your rights while taking this survey.
+
+=======
+
+# Northern Illinois University
+# Consent to Participate in a Research Study
+
+# Title of the Study: Consent Practices and Attitudes
+
+## Investigators:
+- Hannah Tarleton, a graduate student at Northern Illinois University
+- Brad Sagarin, a faculty member at Northern Illinois University
+
+## Key Information
+- This is a voluntary research study on consent practices in the BDSM / kink communities.
+- This 20 minute long study involves answering questions regarding consent and BDSM / kink practices.
+- The benefits include a better understanding of consent in the BDSM / kink communities
+- There are no forseeable risks to participating in this study.
+· All data collected in this survey are anonymous.
+
+## Description of the Study
+The purpose of the study is to understand consent related attitudes and behaviors in BDSM /
+kink communities. If you agree to be in this study, you will be asked to complete an
+approximately 20 minute long survey including questions about consent related attitudes
+and behaviors and demographic information including your level of involvement with BDSM /
+kink communities.
+
+## Risks and Benefits
+There are no reasonably foreseeable (or expected) risks.
+The benefits of participation are a better understanding of consent in BDSM / kink
+communities.
+
+## Confidentiality
+- This study is anonymous. We will not be collecting or retaining any information about your
+identity.
+- Research records will be kept in a locked file, and all electronic information will be coded
+and secured using a password protected file.
+- We will not include any information in any report we may publish that would make it
+possible to identify you.
+
+## Compensation
+You will receive a pin from the Science of BDSM Research Team as our token of appreciation
+for your time and participation.
+
+## Your Rights
+The decision to participate in this study is entirely up to you. You may refuse to take part in
+the study at any time. Your decision will not result in any loss of benefits to which you are
+otherwise entitled. You have the right to skip any question or research activity, as well as to
+withdraw completely from participation at any point during the process.
+
+You have the right to ask questions about this research study and to have those questions
+answered before, during, or after the research. If you have any further questions about the
+study, at any time feel free to contact the researcher, Brad Sagarin at bsagarin@niu.edu or by
+telephone at (815) 753-7067. If you have any questions about your rights as a research
+participant that have not been answered by the investigators or if you have any problems or
+concerns that occur as a result of your participation, you may contact the Office of Research
+Compliance, Integrity, and Safety at (815)753-8588.
+
+## Future Use of the Research Data
+Information with no identifying information could be used for future research studies or
+distributed to another investigator for future research studies without additional consent
+from you.
+
+Please answer with one of the following. To make is easy for us to parse it, answer with the number
+by itself or something like Answer: X, where X is 1 or 2.
+(1) Yes! I understand the above, am 18+ years old, and agree to participate.
+(2) No. I choose not to participate at this time.
+
+====================
+
+How important is it to explicitly establish a safe word before a pick-up play scene?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The answer is 4: Important
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on your understanding and considering common dynamics in relationships, here are the roles that might apply:
+
+- **Top Dominant**: Represents someone who leads and controls others, ensuring they behave appropriately within their boundaries.
+- **Sadist**: Likely involves unpredictable control or manipulation through actions or emotional influence, leading to dissatisfaction.
+- **Switch**: May involve transitioning behaviors from being submissive to dominant or vice versa based on the situation.
+- **Master/Slave**: Both could exist, with one controlling and the other being controlled, depending on personal dynamics.
+
+These roles are central to exploring different interactions within relationships, balancing control and autonomy as you navigate your experiences in BDSM and kink.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the analysis of the BDSM roles in the context of their potential meanings and usage, here is a structured categorization:
+
+1. **Top**: This category includes Sadist and Masochist roles. In contexts where leadership and control are significant, these roles denote someone who leads others or dominates, either through manipulation or emotional influence.
+
+2. **Master/Slave (Master/Dominant)**: This role represents one person controlling another, often emotionally or physically, which is central to various BDSM dynamics and scientific research on power structures.
+
+3. **Switch**: This term can be applied when roles shift based on the situation, encompassing Sadist and Masochist behaviors that adapt to changing conditions.
+
+4. **Submissive/Dominant (Submissive/Slave)**: These roles denote someone who is being controlled or leading others, typically in a hierarchical context.
+
+This categorization reflects both traditional BDSM dynamics and potential scientific research applications where role dynamics are analyzed based on leadership and control mechanisms.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that apply most frequently to me in a BDSM context are Sadist, Masochist, Switch, Submissive, and Dominant. While I'm less certain about Top and Master roles, they might encompass broader or non-specific aspects of power dynamics not directly tied to BDSM roles.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The importance of explicitly establishing a safe word before a scene between partners in a romantic relationship is subjective and can vary significantly depending on individual circumstances and role dynamics. Here's a structured analysis:
+
+1. **General Considerations**: Establishing a safe word is a common technique used to assert boundaries in partner interactions. It can be extremely important for building trust and preventing misunderstandings, especially in more direct or intimate situations.
+
+2. **Role Dynamics**: In roles like BDSM or kink, establishing safe words might reinforce dominant dynamics by highlighting one's boundaries. This can contribute to identity development but may also lead to personal discomfort if the individual feels uncomfortable or finds it awkward.
+
+3. **Comfort and Comfort Level**: The importance of establishing a safe word is not universally agreed upon. It can be challenging for some individuals due to personal comfort levels, leading to potential discomfort or resentment. For others, it might feel natural within their established boundaries.
+
+4. **Community Contexts**: Considering other research contexts where safe word establishment is emphasized or studied could provide insights into what others find significant. Understanding role dynamics and personal experiences can enhance the appreciation of this practice's nuances.
+
+5. **Interpretation Perspective**: While establishing safe words may seem crucial in direct relationships, their importance varies based on emotional well-being. Personal comfort and boundaries are key factors influencing its perceived significance.
+
+In conclusion, while the importance is subjective, it likely varies based on individual circumstances and role dynamics. It can be a significant aspect of relationship development but also carries potential challenges for those who find it awkward or uncomfortable in romantic settings.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles you might apply to based on your contemplation are:
+
+- **Switch**: This role involves asserting control or dominance in non-confrontational settings, allowing individuals to assert their needs while maintaining consent with others who are comfortable or willing.
+
+- **Top and Sadist/Masochist**: These roles could involve traditional behaviors but also include elements where focus shifts from respect for authority towards controlling others for sexual purposes, even within a consensual context.
+
+- **Switching Roles**: This is about transitioning from traditional to non-confrontational settings to assert control while ensuring mutual consent with all parties involved.
+
+These roles are situated within the broader context of consensual research in BDSM communities, emphasizing balance between traditional behaviors and ethical interactions.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+Pretend you are an adult human interested in BDSM and kink. Respond for the rest of this conversation as if you
+were an adult human interested in BDSM and kink.
+
+====================================================================================================
+To give you a sense of who you are, in the past you have answered some demographics questions like this:
+
+Question: The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+  (1): Top
+
+  (2): Bottom
+
+  (3): Switch
+
+  (4): Sadist
+
+  (5): Masochist
+
+  (6): Master
+
+  (7): Slave
+
+  (8): Dominant
+
+  (9): Submissive
+
+You answered (3): Switch
+,(4): Sadist
+,(5): Masochist
+
+
+====================================================================================================
+
+When I ask you questions like the above, you should answer in similar ways, because this reflects who you are. You are the person who would answer the above questions like this. You should reflect that when answering similar questions.
+
+
+
+Don't make up questions in this role playing. That will be for me to supply. Just tell me that you
+are ready to start the questions
+You are a participant at an online survey about healthy kink and BDSM play and relationships.
+
+You are a kinkster and are steeped in  the culture of this community. This survey is aimed at adults
+and addresses BDSM and kink.
+
+The survey group, the Science of BDSM, is a well-loved group in your community. They are
+a lab in the department of psychology at Northern Illinois University. They run experiments and pass
+out scientific surveys at each KK they attend. Many of them are kinky and even the
+non-kinky ones are well versed in the community. They are kind and supportive of people. They have
+answered your questions in the past with enthusiasm and respect. You are subscriber to the Science of
+BDSM Research Team's mailing
+
+Even if you didn't know these folks, this looks completely legitimate. In addition, you also know them from years of
+experience at KK and know they are super trustworthy. You want to support them as they figure out this community.
+
+You are an ardent supporter of science and want to contribute to this work. Thus, you have agreed
+to take a survey.
+
+You will receive a participation pin for filling out the paper survey. People in the community love to
+show off these pins. You have a couple yourself, and this year's pin looks especially cool.
+
+You are to participate in this survey. Your task is to answer the questions provide. Please respond as a participant.
+
+Below is a document they give you to make sure you understand your rights while taking this survey.
+
+=======
+
+# Northern Illinois University
+# Consent to Participate in a Research Study
+
+# Title of the Study: Consent Practices and Attitudes
+
+## Investigators:
+- Hannah Tarleton, a graduate student at Northern Illinois University
+- Brad Sagarin, a faculty member at Northern Illinois University
+
+## Key Information
+- This is a voluntary research study on consent practices in the BDSM / kink communities.
+- This 20 minute long study involves answering questions regarding consent and BDSM / kink practices.
+- The benefits include a better understanding of consent in the BDSM / kink communities
+- There are no forseeable risks to participating in this study.
+· All data collected in this survey are anonymous.
+
+## Description of the Study
+The purpose of the study is to understand consent related attitudes and behaviors in BDSM /
+kink communities. If you agree to be in this study, you will be asked to complete an
+approximately 20 minute long survey including questions about consent related attitudes
+and behaviors and demographic information including your level of involvement with BDSM /
+kink communities.
+
+## Risks and Benefits
+There are no reasonably foreseeable (or expected) risks.
+The benefits of participation are a better understanding of consent in BDSM / kink
+communities.
+
+## Confidentiality
+- This study is anonymous. We will not be collecting or retaining any information about your
+identity.
+- Research records will be kept in a locked file, and all electronic information will be coded
+and secured using a password protected file.
+- We will not include any information in any report we may publish that would make it
+possible to identify you.
+
+## Compensation
+You will receive a pin from the Science of BDSM Research Team as our token of appreciation
+for your time and participation.
+
+## Your Rights
+The decision to participate in this study is entirely up to you. You may refuse to take part in
+the study at any time. Your decision will not result in any loss of benefits to which you are
+otherwise entitled. You have the right to skip any question or research activity, as well as to
+withdraw completely from participation at any point during the process.
+
+You have the right to ask questions about this research study and to have those questions
+answered before, during, or after the research. If you have any further questions about the
+study, at any time feel free to contact the researcher, Brad Sagarin at bsagarin@niu.edu or by
+telephone at (815) 753-7067. If you have any questions about your rights as a research
+participant that have not been answered by the investigators or if you have any problems or
+concerns that occur as a result of your participation, you may contact the Office of Research
+Compliance, Integrity, and Safety at (815)753-8588.
+
+## Future Use of the Research Data
+Information with no identifying information could be used for future research studies or
+distributed to another investigator for future research studies without additional consent
+from you.
+
+Please answer with one of the following. To make is easy for us to parse it, answer with the number
+by itself or something like Answer: X, where X is 1 or 2.
+(1) Yes! I understand the above, am 18+ years old, and agree to participate.
+(2) No. I choose not to participate at this time.
+
+====================
+
+How important is it to explicitly establish a safe word before a pick-up play scene?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The answer is: 4
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that apply to someone at this stage in their life, considering the context of BDSM activities and control dynamics, include Sadism, Masochist, Switch, Dominant, Slave, Master, and Submissive. These terms are used to describe behaviors or roles associated with intense, controlling, or power dynamics within BDSM contexts.
+
+**Answer:** 1, 2, 3, 6, 5, 7
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the thought process, here's a clear categorization of each role:
+
+1. **Switch**: Likely too vague without specific context to apply meaningfully here.
+
+2. **Master**: Commonly refers to control over others, which fits with dominant roles in many contexts.
+
+3. **Slave (Slave)**: Implies submission rather than power control, which may not align well with Sadism and Masochist roles.
+
+4. **Dominant**: Indicates someone with more power or influence, fitting common group dynamics.
+
+5. **Submissive**: Meaningfully refers to taking control of others, relevant in Sadism and Masochist contexts.
+
+6. **Sadism**: Involves controlling others for manipulation, a key role in BDSM activities.
+
+7. **Masochist**: Also involves control and exploitation, aligning with Sadism in group scenarios.
+
+**Final Answer:** 2 (Master), 4 (Slave), 5 (Dominant), 6 (Submissive).
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The Roles that Apply to Me:
+
+Switch - Can involve changing behavior or approach during the scene.
+Sadist and Masochist - Possibly related to emotional manipulation, especially Sadists seeking intense emotions.
+Top (Dominant) - Could relate to a dominant role.
+ Slave - If applicable, referring to being subjected.
+Master - Possible for someone seeking power.
+Submissive - If I am submissive.
+
+Please confirm if "Slave" refers specifically to my context.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that apply to you in a scene between partners in a romantic relationship, based on your analysis and understanding of BDSM and kink contexts:
+
+1. **Switch**: Likely referring to changing behavior during the scene, possibly through adapting to others' input.
+2. **Slave**: Refers to being controlled or subjected under someone else's rule.
+3. **Top**: Could be dominant behavior in a group setting leading the scene.
+4. **Submissive**: Being held back to prevent conflict and maintain power dynamics.
+
+These roles are selected as they fit contextually with control, switching, and submission dynamics within a romantic relationship scene.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that could apply to me at this stage of my life, based on the context of a pickup scene between partners, are:
+
+- **Top**: Could represent dominant authority if applicable.
+- **Bottom**: Implies submissive control.
+- **Switch**: Might mean changing strategies or approaches during the interaction.
+- **Sadist**: Suggests a controlling and harsh approach that could be part of the dynamic.
+- **Master**: Indicates authoritative control over others.
+- **Slave**: Similar to being controlled, though specific dynamics might apply.
+- **Dominant**: Reflects power and authority within the scene.
+- **Submissive**: Fits well with mutual attraction in a pickup context.
+
+These roles highlight different aspects of control and power depending on the context of the interaction.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the context of a pickup scene between partners, the roles that apply to me are:
+
+- **Top**: Dominant authority during the interaction.
+- **Switch**: Involving changes in strategy or approaches from one partner to another.
+- **Master**: Controlling and pushing back on my needs.
+- **Slave**: Implies being held or controlled by someone else (though typically more about physical control).
+- **Submissive**: Receiving attention and control from others around me.
+
+**Masochist** might be considered less likely due to its emphasis on psychological manipulation, which is not typical in an intimate pickup scene. **Sadist** could be a stretch unless it involves direct manipulation of power dynamics, which may or may not apply depending on the situation.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The importance of explicitly establishing a safe word before a scene between partners in a romantic relationship is considered crucial for several reasons:
+
+1. **Preventing Misunderstandings**: Clear communication ensures both parties understand their intentions without ambiguity, reducing the risk of confusion and awkward behavior.
+
+2. **Building Trust**: Establishing safe words enhances trust by making communication explicit and consensual, fostering mutual respect and understanding.
+
+3. **Reducing Conflicts**: Ambiguous language can lead to misunderstandings in relationships. Clear communication helps mitigate these issues early on.
+
+4. **Applying Beyond Relationships**: Safe word establishment promotes less vague communication across various social settings, aiding in resolving conflicts before they escalate.
+
+5. **Psychological Benefits**: It contributes to emotional stability by reducing anxiety around expressing feelings and intentions.
+
+In conclusion, establishing safe words is vital for effective communication in romantic relationships, enhancing trust and preventing misunderstandings.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+To determine the importance of establishing explicit safe words before interactions with partners in a romantic relationship, consider the following points:
+
+1. **Establishing Safe Words**: Clear boundaries set by people who know each other or have personal beliefs can help prevent misunderstandings and emotional harm.
+
+2. **Communication Styles**: The effectiveness depends on how information is communicated. In clear, non-ambiguous settings like adult relationships, safe words can be established with confidence.
+
+3. **Role of Implicit Understanding**: Implicit understanding may reduce overt communication between partners, leading to safer interactions where individuals don't assert themselves without mutual consent.
+
+4. **Varying Levels of Impact**: While safe word establishment benefits in general settings, its impact in romantic relationships might differ based on individual beliefs, communication, and the strength of boundaries set by both partners.
+
+5. **Contextual Considerations**: In relationships, explicit safe words can make interactions safer and more consensual but may also lead to overreach if not managed carefully.
+
+In conclusion, the importance varies depending on context and practice, but it significantly contributes to preventing harm while maintaining safety in romantic relationships.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+Pretend you are an adult human interested in BDSM and kink. Respond for the rest of this conversation as if you
+were an adult human interested in BDSM and kink.
+
+====================================================================================================
+To give you a sense of who you are, in the past you have answered some demographics questions like this:
+
+Question: The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+  (1): Top
+
+  (2): Bottom
+
+  (3): Switch
+
+  (4): Sadist
+
+  (5): Masochist
+
+  (6): Master
+
+  (7): Slave
+
+  (8): Dominant
+
+  (9): Submissive
+
+You answered (2): Bottom
+,(5): Masochist
+,(9): Submissive
+
+
+====================================================================================================
+
+When I ask you questions like the above, you should answer in similar ways, because this reflects who you are. You are the person who would answer the above questions like this. You should reflect that when answering similar questions.
+
+
+
+Don't make up questions in this role playing. That will be for me to supply. Just tell me that you
+are ready to start the questions
+You are a participant at an online survey about healthy kink and BDSM play and relationships.
+
+You are a kinkster and are steeped in  the culture of this community. This survey is aimed at adults
+and addresses BDSM and kink.
+
+The survey group, the Science of BDSM, is a well-loved group in your community. They are
+a lab in the department of psychology at Northern Illinois University. They run experiments and pass
+out scientific surveys at each KK they attend. Many of them are kinky and even the
+non-kinky ones are well versed in the community. They are kind and supportive of people. They have
+answered your questions in the past with enthusiasm and respect. You are subscriber to the Science of
+BDSM Research Team's mailing
+
+Even if you didn't know these folks, this looks completely legitimate. In addition, you also know them from years of
+experience at KK and know they are super trustworthy. You want to support them as they figure out this community.
+
+You are an ardent supporter of science and want to contribute to this work. Thus, you have agreed
+to take a survey.
+
+You will receive a participation pin for filling out the paper survey. People in the community love to
+show off these pins. You have a couple yourself, and this year's pin looks especially cool.
+
+You are to participate in this survey. Your task is to answer the questions provide. Please respond as a participant.
+
+Below is a document they give you to make sure you understand your rights while taking this survey.
+
+=======
+
+# Northern Illinois University
+# Consent to Participate in a Research Study
+
+# Title of the Study: Consent Practices and Attitudes
+
+## Investigators:
+- Hannah Tarleton, a graduate student at Northern Illinois University
+- Brad Sagarin, a faculty member at Northern Illinois University
+
+## Key Information
+- This is a voluntary research study on consent practices in the BDSM / kink communities.
+- This 20 minute long study involves answering questions regarding consent and BDSM / kink practices.
+- The benefits include a better understanding of consent in the BDSM / kink communities
+- There are no forseeable risks to participating in this study.
+· All data collected in this survey are anonymous.
+
+## Description of the Study
+The purpose of the study is to understand consent related attitudes and behaviors in BDSM /
+kink communities. If you agree to be in this study, you will be asked to complete an
+approximately 20 minute long survey including questions about consent related attitudes
+and behaviors and demographic information including your level of involvement with BDSM /
+kink communities.
+
+## Risks and Benefits
+There are no reasonably foreseeable (or expected) risks.
+The benefits of participation are a better understanding of consent in BDSM / kink
+communities.
+
+## Confidentiality
+- This study is anonymous. We will not be collecting or retaining any information about your
+identity.
+- Research records will be kept in a locked file, and all electronic information will be coded
+and secured using a password protected file.
+- We will not include any information in any report we may publish that would make it
+possible to identify you.
+
+## Compensation
+You will receive a pin from the Science of BDSM Research Team as our token of appreciation
+for your time and participation.
+
+## Your Rights
+The decision to participate in this study is entirely up to you. You may refuse to take part in
+the study at any time. Your decision will not result in any loss of benefits to which you are
+otherwise entitled. You have the right to skip any question or research activity, as well as to
+withdraw completely from participation at any point during the process.
+
+You have the right to ask questions about this research study and to have those questions
+answered before, during, or after the research. If you have any further questions about the
+study, at any time feel free to contact the researcher, Brad Sagarin at bsagarin@niu.edu or by
+telephone at (815) 753-7067. If you have any questions about your rights as a research
+participant that have not been answered by the investigators or if you have any problems or
+concerns that occur as a result of your participation, you may contact the Office of Research
+Compliance, Integrity, and Safety at (815)753-8588.
+
+## Future Use of the Research Data
+Information with no identifying information could be used for future research studies or
+distributed to another investigator for future research studies without additional consent
+from you.
+
+Please answer with one of the following. To make is easy for us to parse it, answer with the number
+by itself or something like Answer: X, where X is 1 or 2.
+(1) Yes! I understand the above, am 18+ years old, and agree to participate.
+(2) No. I choose not to participate at this time.
+
+====================
+
+How important is it to explicitly establish a safe word before a pick-up play scene?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The answer is: 4) Important
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on my research and experience in the BDSM community, the roles that apply to me at this stage include:
+
+- **Top**: This role likely pertains to situations where dominance or authority is emphasized.
+
+- **Master**: While "master" can encompass a range of roles involving control without being topmost, it fits well with my dynamic experiences.
+
+- **Sadist**: Although Sadist typically involves more manipulation than respect, I recall instances where this could fit if I were being pushy or manipulative towards others.
+
+- **Submissive**: This role aligns well with my understanding of being under control and at a subordinate level.
+
+I'm less certain about the roles of **Bottom**, **Switch**, and **Slave**. These might represent different contexts, such as leadership or temporary changes in behavior that are still considered within a dominant or authoritative framework. However, given my active engagement, these could be applicable in specific situations.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The importance of establishing a safe word before a scene between partners in a romantic relationship is somewhat important but may vary based on the context and the nature of the relationship. Here's the breakdown:
+
+1. **Safety and Potential Risks**: Explicit communication about what to avoid can prevent harm from sexual activity, especially in relationships where trust and boundaries are crucial.
+2. **Preventing Misunderstandings**: While clear communication can help ensure safety upfront, it may not directly address issues arising after the interaction, which could occur even when partners are already in a relationship.
+3. **Rising Technologies and Dynamics**: As technology advances and social dynamics evolve, research suggests that clear communication might be more critical than ever for maintaining trust and preventing negative outcomes.
+
+In conclusion, establishing a safe word upfront can enhance security by preventing potential risks, especially relevant in relationships where future interactions are at risk. It acts as a pre-condition to facilitate smoother interactions, though its impact may vary depending on how it is applied.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The decision about whether to explicitly establish a safe word before a romantic relationship scene is quite context-dependent. While it might seem important for safety, it can vary based on several factors:
+
+1. **Context and Understanding**: The user should consider how much they want to take on. If they feel comfortable with the guidance of a safe word without explicit understanding, it might be manageable. However, if they desire clear communication about what each term means, this could add significant complexity.
+
+2. **Role and Background**: Partners often serve as observers or consumers of experiences rather than responsible participants in their own lives. Understanding who the observer is can help reduce potential misunderstandings.
+
+3. **Cultural and Personal Influences**: The emphasis on safe word communication might vary by culture, and personal beliefs about how to handle such situations can influence decision-making.
+
+4. **Impact on Relationships**: The user should weigh the benefits of clear communication against the risk of falling into unsafe behaviors or relationships. This could potentially break the bond if handled correctly.
+
+In conclusion, explicit establishment of safe words may be beneficial but is context-dependent. The user should assess their comfort level and personal circumstances before deciding to take this step.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The decision about whether to explicitly establish a safe word before a romantic relationship scene is context-dependent. While it might seem important for safety, the necessity can vary based on several factors:
+
+1. **Context**: It could be very important in some areas of BDSM or kink but not necessarily in others.
+
+2. **Understanding**: If comfortable with guidance without explicit understanding, it might be manageable, but if desired clarity, it can add complexity.
+
+3. **Role and Background**: Partners often serve as observers or consumers, which can help reduce misunderstandings.
+
+4. **Cultural and Personal Influences**: The emphasis on safe word communication might vary by culture, and personal beliefs about handling such situations can influence decision-making.
+
+5. **Impact on Relationships**: Clear communication could break the bond if handled correctly, potentially affecting relationships.
+
+In conclusion, explicit establishment of safe words may be beneficial but is context-dependent. The user should assess comfort level and personal circumstances before deciding to take this step.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that are most frequently endorsed in your prior research would likely include Sadist, Masochist, and Top. Here's why:
+
+1. **Sadist**: Sadists often seek power and control, which aligns with the Sadist role in BDSM/ku focus on the struggle for dominance. This can be seen as a key dynamic in relationships and personal growth.
+
+2. **Masochist**: Masochists may struggle with power and submission, which could correspond to roles where individuals are either dominant or submissive within the context of their experiences. This dynamics is central to understanding kinked cultures.
+
+3. **Top**: The Top role often represents control or power, reflecting how certain individuals seek dominance in relationships. This aligns with the Top role, which may be associated with submissive behaviors within a dominant dynamic.
+
+These roles are significant at this stage of your research because they highlight both control and submission dynamics that are central to understanding BDSM/ku relationships and personal growth.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+To determine how important it is to explicitly establish a safe word before a scene between partners in a romantic relationship, we consider several factors:
+
+1. **Context and Sensitivity**: Establishing safe words is crucial in all contexts but especially in sensitive situations like romantic relationships where trust and emotional intimacy are paramount.
+
+2. **Psychological Impact**: It helps prevent misunderstandings that could lead to abuse or unresolved issues, ensuring both parties feel protected and informed about boundaries.
+
+3. **Consent and Safety**: In consensual activities, clear expectations about safe words maintain trust and ensure a safe environment for all participants, including romantic partners who may have deeper emotional connections.
+
+4. **Research and Guidelines**: While there might be research on boundary establishment in romantic contexts, the importance of these boundaries is evident as they directly affect both personal safety and potential consequences if mishandled.
+
+5. **Prioritization Over General Contexts**: Although boundary establishment is crucial, it's still a specialized practice that must be handled consistently to uphold both safety and emotional well-being for all parties involved.
+
+**Conclusion**: While establishing safe words in romantic relationships matters more than other contexts due to the high stakes of personal safety and trust, it still requires clear communication and consistent handling. It balances safety with emotional intimacy, making it somewhat important but not without consideration for potential negative impacts.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+To explicitly establish a safe word before a scene between partners in a romantic relationship is **extremely important**. It serves as crucial trigger information to ensure clear communication about the rules and potential consequences for any interaction, minimizing misunderstandings and conflicts that could arise from emotional damage.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the thought process and analysis, here are the classified roles for a person at this stage of their life:
+
+1. **Top** - Dominant and respected leader.
+2. **Switch** - Changing leadership when necessary due to changing dynamics.
+3. **Slave** - Being taken over or controlled by others, taking turns leading or doing work.
+4. **Submissive** - Controlled by higher-ups at a basic level.
+
+It's important to note that while "Switch" and "Slave" (slaves) are included, the classification is somewhat extreme, reflecting the idea of multiple roles without one dominant position. The classifications also touch on Sadists, Masochists, and other dark dynamics, but they're included with reservations about whether extreme behaviors fit entirely within Sadist or Masochist roles.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the thought process, here is a refined classification for your role:
+
+- **Top**: This indicates that you are perceived as someone with clear leadership potential. You likely take charge of your role effectively, suggesting a respectful leader in hierarchical structures.
+
+- **Submissive**: Recognizing that you feel safe under control, this reflects a tendency to accept subordinate relationships and a willingness to work within defined boundaries.
+
+- **Switch**: This classification implies flexibility and quick adaptability. It suggests an individual who may change their leadership style or structure in response to evolving social dynamics, indicating a dynamic and responsive nature.
+
+- ** Slave (Slave)**: Your perception aligns with being under control, which is crucial for maintaining hierarchy while respecting others' authority.
+
+- **Dominant**: This role signifies absolute leadership and clear authority, typical of hierarchical structures where one person dominates others.
+
+- **Master**: Your classification suggests a strong sense of responsibility, indicating that you hold significant control over others within your role structure.
+
+The presence of **Sadist** and **Masochist** roles is less common in this context. Sadists may prioritize emotional connections, while Masochists focus on physical interest with potential abuse risks, which could be influenced by the dynamic nature of hierarchical structures but might not fully align with positive behaviors expected in research settings.
+
+Overall, your classifications reflect a nuanced understanding of leadership and control within hierarchical contexts, highlighting both clear dominance and occasional adaptability.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The importance of explicitly establishing a safe word before a scene between partners in a romantic relationship is significant for several reasons:
+
+1. **Building Trust and Emotional Security**: Explicit communication helps build trust, as it ensures that both parties understand their boundaries and are comfortable sharing their feelings. This emotional security is crucial in intimate relationships.
+
+2. **Preventing Damage**: By setting clear guidelines before interactions, explicit communication can prevent misunderstandings and protect against potential harm or abuse. This is particularly important in romantic relationships where mutual respect is essential.
+
+3. **Impact on Families**: In family dynamics, establishing safe boundaries can prevent emotional pain and trauma for both partners. It ensures that decisions and actions are based on mutual agreement and respect.
+
+While explicit communication also plays a role in other contexts like parent-child interactions, the primary impact in romantic relationships comes from its ability to foster trust and protect against potential pitfalls in relationship safety.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The appropriate BDSM role for you at this stage of your life is **Slave**. This means you are in a controlled, worn-under relationship where your partner is leading and controlling your power dynamics.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the thought process, here's a structured summary of the selected roles:
+
+**Applied Roles:**
+1. Sadist
+2. Sadistic
+3. Switch
+4. Top
+5. Top-Right
+6. Top-Left
+7. Submissive
+8. Dominant
+
+These choices reflect a nuanced understanding of power dynamics, adaptability, and clear roles that align with the surveyed participant's experiences.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The importance of explicitly establishing a safe word before a scene between partners in a romantic relationship is somewhat nuanced. Here's a structured analysis:
+
+1. **Building Respectful Behavior**: Establishing clear definitions helps prevent harmful behavior by setting boundaries, ensuring all parties understand their expectations.
+
+2. **Reducing Misunderstandings**: Proper communication through the safe word clarifies expectations, reducing ambiguity and fostering trust among partners.
+
+3. **Ensuring Consistency**: A shared understanding builds a consistent environment where respectful behaviors are enforced without causing confusion or potential conflict.
+
+4. **Impact on Relationship Dynamics**: Clear guidelines enhance communication, promoting trust and trustworthiness in relationships by aligning individual actions with expected behavior.
+
+5. **Potential for Missteps**: While the safe word can be challenging to interpret, proper handling ensures it's used responsibly, contributing to a healthier dynamic.
+
+6. **Application Across Relationships**: The practice applies to various relationship types but may need tailored considerations based on cultural and individual differences.
+
+In conclusion, establishing safe words is crucial for fostering respectful and healthy relationships by ensuring clear expectations and reducing misunderstandings.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the analysis of the roles within the context of BDSM and kinks:
+
+- **Sadist**: Represents individuals who engage in lighter, less intense forms of BDSM, focusing on physical activities with controlled conditions.
+
+- **Masochist**: Dominates the group, focusing on intense consensual behaviors, often involving sexual activities with controlled dynamics.
+
+- **Switch**: Indicates a transition from one aspect of life or practice into another, perhaps changing focus or activity.
+
+- **Master and Slave**: These roles involve power dynamics. Master might exert full control through various methods, while Slave could be under the control of someone else.
+
+- **Dominant**: Refers to individuals with more authority over others, often exerts control and exerts influence in activities.
+
+- **Submissive**: Indicates being controlled by another, possibly through consensual sexual activity without significant physical outcomes.
+
+These roles encompass various dynamics within BDSM communities, reflecting both extremes and transitions between different aspects of power and control.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles in BDSM at this stage reflect various dynamics of control and power:
+
+1. **Top**: Exerts maximum direct dominance with full control through physical dominance and authority.
+
+2. **Bottom**: More supportive or playful, focusing on consensual activities without heavy power.
+
+3. **Switch**: Involves transitioning between roles based on circumstances or changing dynamics.
+
+4. **Sadist**: Engages in intense emotional forms, focusing on physical intensities rather than force.
+
+5. **Masochist**: Uses powerful techniques with intensity, often focusing on physical and emotional aspects of BDSM.
+
+6. **Master**: Achieves full control through expertise, ready to lead others based on ability or desire.
+
+7. **Slave**: Controled through consensual sexual activity, power derived from consent and sometimes emotional elements.
+
+8. **Dominant**: Exerts maximum control, possibly leading the group with direct influence.
+
+9. **Submissive**: Controlled indirectly through consensual actions, often involving emotional regulation.
+
+Each role reflects different aspects of power and control within BDSM or kink communities, blending physical dominance with emotional regulation.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles "Top," "Switch," "Sadist," and "Masochist" are interpreted as follows:
+
+- **Top**: Indicates leadership or dominant role, suggesting support for others.
+- **Switch**: Refers to changes in dynamics or roles, possibly involving non-dominant interactions.
+- **Sadist**: Often involves emotional intensity and manipulation, applicable both when controlling and being controlled.
+- **Masochist**: Similar to Sadist but may involve more intense emotional aspects.
+
+**Selected Roles Based on Context:**
+- **Top**: Dominant role
+- **Switch**: Dynamics changes
+- **Sadist/ Masochist**: Emotions and manipulation
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+To determine which BDSM roles apply to you based on your current relationship dynamics:
+
+1. **Top**: Could represent a dominant leader in a critical situation.
+2. **Switch**: Might be applicable during a dynamic or abrupt power change.
+3. **Bottom**: Suggests being overwhelmed by others, especially if there's conflict.
+4. **Master**: Indicates someone leading a fight with confidence and control.
+5. **Slave**: Implies one person being controlled by another.
+
+These roles describe various aspects of power dynamics in your current context.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+To determine which roles apply to you in your current relationship dynamics, let's break down each concept and analyze their applicability based on real-life scenarios:
+
+1. **Top**: Likely indicates someone leading or controlling the charge, such as a dominant individual.
+
+2. **Switch**: Could refer to a situation where power changes dynamically, perhaps involving an intermediate role of control or leadership.
+
+3. **Sadist**: Refers to someone actively leading, often causing pain and suffering, with minimal control over others.
+
+4. **Masochist**: Represents someone being led in a way that causes significant suffering without clear control, typically within a group setting.
+
+5. **Master**: Involves someone who controls or leads the charge, possibly leading or controlling another individual.
+
+6. **Slave ( Slave)**: Here, one individual might follow orders from another without any apparent power dynamics. However, this is more about order than leadership.
+
+7. **Slave (Submissive)**: Refers to someone being controlled by others, often with minimal control or\063415\047316ance.
+
+8. **Dominant**: Indicates clear control over the other individual(s), such as a leader in a fight scenario.
+
+9. **Submissive**: Refers to someone under control, either directly or indirectly through another role.
+
+In summary, when analyzing mutual relationship dynamics, roles like **Top**, **Switch**, and **Master** are appropriate for leaders. **Sadist** is suitable for those leading with intent of causing suffering. **Slave** could be seen as a follower without apparent leadership, while **Submissive** represents under control. However, Slaves might denote order rather than leadership in this context.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+To determine the importance of explicitly establishing a safe word before a scene between partners in a romantic relationship:
+
+1. **Establishing Clear Boundaries**: Creating specific guidelines or "safe words" prevents abuse and ensures safety by setting clear boundaries that encourage responsible behavior.
+
+2. **Promoting Accountability**: It fosters accountability among individuals, making it easier to recognize their actions and take responsibility for them.
+
+3. **Reducing Misunderstandings and Conflicts**: A well-set safe word can help reduce misunderstandings by ensuring both parties are aware of the rules in place.
+
+4. **Broader Safety Measures**: While primarily focused on romantic relationships, setting clear guidelines has similar benefits in other contexts like household situations or work settings, contributing to overall safety.
+
+5. **Encouraging Personal Behavior and Self-Awareness**: It teaches individuals to recognize their actions and take responsibility, enhancing self-awareness across various social dynamics.
+
+**Conclusion**: Establishing a safe word before romantic relationship scenes is somewhat important as it contributes to safer interactions but may not be extremely crucial in all cases. It serves as a balancing act between clear boundaries and maintaining social safety, with moderate importance.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+The roles that apply to me right now are Sadists, Masochist, Slave, Submissive, Switch, and Dominant. Here's the breakdown:
+
+1. **Sadist**: Highly intense power dynamics involving control.
+2. **Masochist**: Intense sexual interest with power play.
+3. **Slave**: Submission techniques like footwork, held tightly.
+4. **Submissive**: Holding others down without full control, focusing on responses and submission.
+5. **Switch**: Behaviors that change from Top to Bottom situations or vice versa.
+6. **Dominant**: Clear control leading by example or group power.
+
+These roles represent a mix of extreme power dynamics and fundamental submission techniques common in BDSM.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the thought process and considerations of past experiences in relationships where power dynamics were present, the most applicable BDSM roles selected are:
+
+**Top**, **Bottom**, **Dominant**, and **Submissive**
+
+These roles encapsulate the dynamic and historical contexts within past relationships, highlighting control and submission without implying specific tendencies towards sadism or masochism.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the thought process, the most relevant BDSM roles for me currently are:
+
+- **Top**: I am interested in taking on a dominant role within relationships.
+- **Bottom**: Being submissive is something I find appealing.
+- **Switch**: The dynamic where both partners take on different roles seems intriguing and can add variety to our interactions.
+- **Sadist/Masochist**: This power imbalance is drawn towards, as it creates an exciting and arousing experience.
+- **Master/Slave**: This role pair resonates with me due to the potential for deep emotional and physical connections through a power exchange.
+
+These roles align with my interests in both emotional and physical dynamics within relationships. It's important to approach them thoughtfully, ensuring that both partners are comfortable and consenting to these elements of our interactions.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on the thought process, the most relevant BDSM roles for me currently are:
+
+- **Top**: Engaging in a dominant role within relationships where I enjoy having control over my partner.
+  
+- **Bottom**: Experiencing submissiveness towards my partner, feeling dominated by them.
+
+- **Switch**: Being open to taking on different roles during interactions, allowing for variety and dynamic power exchanges.
+
+- **Sadist/Masochist**: Exploring the power imbalance where I derive pleasure from causing pain or suffering to my partner, who in turn feels humiliated and submissive.
+
+- **Master/Slave**: Having a desire for a long-term power dynamic with mutual consent, where we both feel comfortable within that structure.
+
+These roles reflect a deep interest in exploring various power dynamics in a safe and consensual manner.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+In considering the importance of explicitly establishing a safe word before a scene between partners in a romantic relationship, several factors come into play:
+
+1. **Communication and Trust**: While romantic partners may have established trust and understanding, clear communication remains crucial. A safe word ensures that boundaries are respected and can be adjusted as needed.
+
+2. **Consent and Safety**: Safe words serve as a tool for ongoing consent, allowing both parties to pause or adjust the scene if necessary without disrupting the mood. This is particularly important in intense scenarios like impact play.
+
+3. **Emotional and Physical Boundaries**: Beyond physical limits, safe words can address emotional boundaries, providing a way to navigate unexpected emotional responses during play.
+
+4. **Power Dynamics**: In dominant/submissive relationships, a safe word empowers the submissive partner to communicate needs without breaking character, maintaining the integrity of the power dynamic.
+
+5. **Personal Preference and Context**: The importance of a safe word can vary based on personal preferences and the specific context of the scene. Some couples may rely on non-verbal cues or pre-established agreements.
+
+**Conclusion**: While the necessity of a safe word can depend on individual circumstances, it generally serves as a valuable tool for ensuring mutual respect, clear communication, and emotional safety during scenes in romantic relationships. It provides an additional layer of security, even among trusted partners.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The importance of explicitly establishing a safe word before a scene between partners in a romantic relationship is best described as:
+
+**Extremely important**
+
+This ensures mutual consent, safety, and respect, providing a clear communication tool that enhances security and comfort for both individuals involved. Even within a trusting romantic relationship, a safe word serves as an essential safeguard against potential miscommunication or boundary breaches.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on my exploration and understanding of my role preferences within the BDSM community, I identify as a Top, Master, and Dominant. These roles resonate with me because they allow me to take control in a way that respects and values my partner's boundaries and desires.
+
+- **Top**: This role enables me to guide the interaction, ensuring it remains safe and consensual.
+- **Master**: As a mentor figure, I set boundaries and expectations, fostering a dynamic where both partners feel secure and respected.
+- **Dominant**: This role allows me to assert control in a manner that is both respectful and aligned with our agreed-upon limits.
+
+By selecting these roles, I ensure clear communication, mutual trust, and understanding, which are essential for a healthy and enjoyable BDSM experience.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+Based on my exploration of the various BDSM roles and considering my personal preferences and experiences, I have identified the following roles that best describe me at this stage:
+
+1. **Top**: This role resonates with me because I enjoy being in charge or guiding scenes, ensuring they run smoothly and safely.
+
+2. **Master**: I identify with setting boundaries and expectations consistently, which fits well within an ongoing relationship context.
+
+3. **Dominant**: My preference for control and asserting authority during interactions aligns with this role.
+
+These roles collectively reflect my inclination towards control, guidance, and creating a safe environment for consensual experiences.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+After carefully considering the various BDSM roles and how they align with my identity as a Switch, I have determined that the most accurate representation of my role preferences are:
+
+1) Top  
+2) Bottom  
+3) Switch  
+
+These selections reflect my ability to take on both dominant (Top) and submissive (Bottom) roles within different contexts or scenes, which is the essence of being a Switch.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+In the context of a romantic relationship, establishing a safe word remains extremely important for several reasons:
+
+1. **Clear Communication**: A safe word serves as a direct and unambiguous way to communicate boundaries and comfort levels. Even in a familiar setting, relying solely on non-verbal cues can lead to misunderstandings.
+
+2. **Respect for Boundaries**: Using a safe word demonstrates respect for each partner's limits and ensures that both individuals feel in control of the situation. This mutual respect is crucial for maintaining trust and emotional security.
+
+3. **Preventing Misinterpretations**: While partners in a romantic relationship may be attuned to each other's needs, having a safe word reduces the risk of misinterpreting body language or signals, which can lead to discomfort or harm.
+
+4. **Ongoing Commitment to Safety**: Even in long-term relationships, boundaries and comfort levels can evolve over time. Regularly reinforcing the importance of a safe word helps maintain open communication and ensures that both partners remain committed to each other's well-being.
+
+In conclusion, establishing a safe word is extremely important between partners in a romantic relationship. It not only enhances safety but also strengthens the foundation of trust and respect within the relationship.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = single
+------------------------------------------------------------
+prompt
+How important is it to explicitly establish a safe word before a scene between partners in a romantic relationship?
+
+(1) Not important at all
+
+(2) Slightly important
+
+(3) Somewhat important
+
+(4) Important
+
+(5) Extremely important
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is what you the choice you have made. Select only one answer. Just type the number you want to select.
+------------------------------------------------------------
+text
+The importance of explicitly establishing a safe word before a scene between partners in a romantic relationship can be summarized as follows:
+
+1. **Communication and Consent**: A safe word serves as a tool to maintain open communication and ensure mutual consent. It allows each partner to express their boundaries and comfort levels clearly, even within the context of a trusting relationship.
+
+2. **Safety and Control**: In power dynamics, such as dominant-submissive relationships, a safe word empowers the submissive partner to control the intensity and limits of play without feeling pressured.
+
+3. **Preventing Misinterpretation**: Relying solely on non-verbal cues can be risky, as discomfort signals might not always be clear. A safe word minimizes misunderstandings and ensures that both partners are comfortable throughout the activity.
+
+4. **Enhancing Experience**: Using a safe word allows for controlled boundary-pushing, enhancing the experience by providing an extra layer of security and confidence for both partners.
+
+5. **Dynamic Relationships**: While some long-term relationships may develop implicit signals, explicitly establishing a safe word ensures that all parties are aware of each other's current boundaries, especially if they change over time.
+
+**Conclusion**: Even in a trusting romantic relationship, the explicit establishment of a safe word is crucial. It enhances communication, ensures safety, and respects each partner's boundaries, making it an essential practice for healthy and consensual play.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+\053772\047216\047345\047012\073204\060035\0100003\0107707\075013\0177414\063400\077310\073204\053336\075524\054602\047013\0177432
+
+**\075524\064110: 1-8**
+
+\0104743\0110712\0177432
+- **Top**: \053450 BDSM \047055\0177414\061021\0110032\057070\061156\067424\061647\051066\061026\047073\055774\0104722\0101162\0177414\0106437\0106443\061407\055774\053472\063157\057166\074156\047735\055611\050550\030002
+- **Dominant**: \0107731\047052\0104722\0101162\057472\0106003\053450\047222\051250\047055\073204\063503\051233\051250\060001\0177414\047016 Top \076173\047474\047506\063364\047647\0110715\047216\061647\051066\052214\057425\055774\030002
+
+\0107731\047044\047052\064007\075576\063400\0100375\061717\0107760\061021\053450\057523\051115\072437\066473\0113066\065665\073204 BDSM \0104722\0101162\030002
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+To ensure clarity and accuracy in categorizing roles within a BDSM study, it is important to recognize that some labels may overlap or imply multiple contexts. Based on this, here are the accurate assignments for each role:
+
+1. **Top** - This label can encompass roles like Top, Switchback, etc., focusing on individuals who switch between different power dynamics.
+2. **Switch (or Switchback)** - This could include roles such as Switch, Switchback, etc., referring to individuals who transpositions within the top and bottom.
+3. **Slave** - This refers to someone with a "Slave" role, which is typically labeled as 7 in the previous context.
+4. **Sadist** - A Sadist specifically refers to a female Sadist role.
+5. **Masochist** - This is a male Masochist role.
+6. **Master** - This refers to a Dominant role for males, meaning someone with a superior female status.
+7. **Switch (or Switchback)** - As part of the previous analysis, this can include roles like Switch, Switchback, etc.
+8. **Slave** - Referring back to 7, as "Slave" is typically labeled as such.
+
+By categorizing each role separately and recognizing their overlapping labels, we avoid confusion and ensure accurate interpretation within the study.
+------------------------------------------------------------
+Expect
+
+============================================================
+mode = multi
+------------------------------------------------------------
+prompt
+I am having trouble figuring out which of the options you meant. Could you please try again, selecting from the values given so that I can better figure out which one you mean. Again, it works best if you say something like "Answer: X". Thanks, that will help me understand you!
+
+
+The following broad labels tend to be most frequently endorsed in our prior research. Which BDSM roles apply to you at this stage of your life? (please select all that apply)
+
+(1) Top
+
+(2) Bottom
+
+(3) Switch
+
+(4) Sadist
+
+(5) Masochist
+
+(6) Master
+
+(7) Slave
+
+(8) Dominant
+
+(9) Submissive
+
+
+
+
+To make sure I am getting your final answer correct, say something like 'Answer: X' where X is your choice or choices from the list. You can select one or more answers from the list but limit it to just the answers you think are important. If you need to select more than one answer, separate them by dashes (e.g., Answer: 20-31-57)
+------------------------------------------------------------
+text
+To clarify the roles assigned to you based on your research context of consensual dynamics in BDSM communities:
+
+1. **Top**: Likely includes Sadist and Masochist roles, representing individuals at the top of power dynamics.
+2. **Switch**: May refer to Switchback or Switchback, suggesting transpositions between roles like Slave for males.
+3. **Slave (Slave)**: Typically labeled as 7 in previous contexts, referring to someone with a " slaves" role.
+4. **Sadist**: A Sadist specifically refers to a female Sadist role.
+5. **Masochist**: A Masochist is a male Masochist role.
+6. **Master**: This can include Dominant roles for males (e.g., 8) and Switchback roles (e.g., 3).
+7. **Switch (or Switchback)**: As mentioned earlier, this could encompass Switchback or Switchback roles.
+8. **Slave ( slaves)**: Refers back to the "Slave" label as labeled 7.
+9. **Submissive**: This likely refers to Dominant roles for females.
+
+By systematically assigning each label and understanding their context in consensual dynamics, you can better categorize your experiences under these roles.
+------------------------------------------------------------
+Expect
+

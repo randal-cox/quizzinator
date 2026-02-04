@@ -47,7 +47,7 @@ def concordance_main():
       humans.append(row)
 
   # Get the answers from the LLM
-  path_data = Path(args.dir) / 'experiments' / args.experiment / 'info' / 'data.json'
+  path_data = Path(args.dir) / 'html' / args.experiment / 'data.json'
   with open(path_data, encoding='utf-8') as f:
     responses = json.load(f)['responses']
 
@@ -101,4 +101,4 @@ def concordance_main():
   print(f"{'Exact':<30s}\t{counts.get('exact',0)}\t{100 * counts.get('exact',0) / counts['all']:.1f}")
   close_cum = counts.get('exact',0) + counts.get('concordant',0)
   print(f"{'Concordant':<30s}\t{close_cum}\t{100 * close_cum / counts['all']:.1f}")
-  print(f"{'Discordant':<30s}\t{counts['discordant']}\t{100 * counts.get('discordant',0) / counts['all']:.1f}")
+  print(f"{'Discordant':<30s}\t{counts.get('discordant',0)}\t{100 * counts.get('discordant',0) / counts['all']:.1f}")
