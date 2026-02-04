@@ -1,45 +1,34 @@
 ##!/usr/bin/env bash
 
-
-# with either Roles or Gender given as a prompt
-for e in Gender
+###############################################################
+# Junk - delete this section
+###############################################################
+for e in  Roles Gender
 do
-  for m in 1.5 7 32
+  for m in 1.5
   do
     echo "🚀 Running ${e} echo for deepseek model ${m}B"
     ./bin/experiment \
       --hints ${e} \
       --verbose  \
-      --experiment ${e}_${m}B \
+      --experiment junk_${e}_${m}B \
       --model deepseek-r1:${m}B \
       --timeout 600 \
       --attempts 2 \
-      --n 100 \
+      --n 3 \
       --questions PuPSafeword,RRSafeword,${e} \
       data/consent
     echo
   done
 done
-
-echo "!!! exiting for debugging"
 exit
 
-echo "🚀 Running concordance testing"
-for m in 1.5 7 32 70
-do
-  for h in Roles Gender
-  do
-    export name="${h}_${m}B"
-    ./bin/concordance data/consent \
-      --experiment $name \
-      --hints ${h} \
-      > figures/concordance/${name}.txt
-    echo "  ${name}"
-  done
-done
 
-echo "!!! exiting for debugging"
-exit
+
+
+
+
+
 
 ###############################################################
 # This is what we run for the paper that describes Quizzinator
