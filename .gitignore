@@ -2,7 +2,9 @@
 /venv/
 
 /__pycache__/
-/*/__pycache__/
+lib/quizzinator/__pycache__/
+tests/quizzinator/__pycache__/
+tests/quizzinator/test_utils/__pycache__/
 
 /data/*/experiments/
 /data/*/comparisons/
