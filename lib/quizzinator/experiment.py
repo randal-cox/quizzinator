@@ -293,6 +293,7 @@ def copytree(source_dir, target_dir, ignore=None):
       shutil.copy2(str(source), str(target))
 
 def experiment_html(dir_path):
+  print("in experiment_html")
   args = cli_get_args()
 
   # Copy the templates/experiment files
