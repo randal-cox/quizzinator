@@ -211,3 +211,8 @@ Tarleton [citation needed]
 
 The run bash command should give you some good hints about how to run bin/experiments on
 your own data sets.
+
+
+## 
+tell to loolk for eraw data in
+data/*/index.html
