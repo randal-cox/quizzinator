@@ -52,10 +52,11 @@ h1, h2 {
 }
 #histogram-table th,
 #histogram-table td {
-    border: 1px solid #ccc;
+    border: none !important;
     padding: 4px;
     vertical-align: top;
 }
+
 /* make each chart a fixed height */
 /* in your stylesheet */
 #content-div {
@@ -136,5 +137,49 @@ h1, h2 {
   color: black;
   border: 2px solid #4CAF50;
 }
+.chart-wrap{
+  width: 300px;        /* whatever you want */
+  height: 200px;       /* whatever you want */
+  position: relative;  /* important for Chart.js sizing */
+}
 
+.chart-wrap canvas{
+  display: block;      /* no !important sizing */
+}
+/* subtle highlight for the reference experiment row */
+table tr.ref-row > th,
+table tr.ref-row > td {
+  background: #f2f2f2; /* light gray */
+}
 
+/* Histogram tables: no borders/gridlines at all */
+table.hist-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: none;
+}
+
+table.hist-table th,
+table.hist-table td {
+  border: none !important;
+}
+
+/* Row labels rotated CCW */
+.hist-table th.row-label {
+  width: 3rem;          /* tweak to taste */
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hist-table th.row-label .row-label-text {
+  display: inline-block;
+  transform: rotate(-90deg);   /* CCW */
+  white-space: nowrap;
+}
+/* Make numeric metrics align nicely */
+.similarity {
+  font-variant-numeric: tabular-nums;
+  /* Safari/older fallback */
+  font-feature-settings: "tnum" 1;
+}

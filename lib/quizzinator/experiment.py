@@ -293,7 +293,6 @@ def copytree(source_dir, target_dir, ignore=None):
       shutil.copy2(str(source), str(target))
 
 def experiment_html(dir_path):
-  print("in experiment_html")
   args = cli_get_args()
 
   # Copy the templates/experiment files
@@ -343,6 +342,7 @@ def experiment_html(dir_path):
   # also the text of the question
 
   data_js_path = target_dir / "data.js"
+
   with open(data_js_path, "w") as data_js_file:
     data_js_file.write("window.document = window.document || {};\n")
     data_js_file.write("window.document.quizzinator = window.document.quizzinator || {};\n")
@@ -515,8 +515,13 @@ def experiment_main():
       # Process all `data.json` files
       if file == 'data.json':
         name = os.path.basename(root)  # Get the name of the base directory
+        logger.info(f"Adding entry for {name}")
         with open(os.path.join(root, file), 'r') as f:
+          if name in dict_data:
+            logger.exit(f"Bug with duplicate base name = {name}!!! ")
+            sys.exit()
           dict_data[name] = json.load(f)
+
 
   # Write dictionary to `data.js` file
   with open(path_html / 'data.js', 'w') as f:

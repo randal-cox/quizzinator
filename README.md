@@ -206,13 +206,21 @@ inb bin/run (see below) took about a week of computation.
 This bash script runs all the experiments described in our paper on Quizzinator. Details
 are available in the linked paper, but in general, we looked at two published data sets.
 
-Buss [citation needed]
-Tarleton [citation needed]
+- Buss, D. M., Larsen, R. J., Westen, D., & Semmelroth, J. (1992). Sex Differences in Jealousy: Evolution, Physiology, and Psychology. Psychological Science, 3(4), 251–256. https://doi.org/10.1111/j.1467-9280.1992.tb00038.x
+- Tarleton, H. L., Mackenzie, T., & Sagarin, B. J. (2025). Consent Norms in the BDSM Community: Strong But Not Inflexible. Archives of Sexual Behavior, 54(2), 549–559. https://doi.org/10.1007/s10508-024-03038-6 
 
 The run bash command should give you some good hints about how to run bin/experiments on
 your own data sets.
 
+## Results
+You can find a fully interactive HTML view of the results of the experiments in 
+> data/PROJECT_NAME/html/EXPERIMENT_NAME/index.html
 
-## 
-tell to loolk for eraw data in
-data/*/index.html
+A disclosure triangle revels links to the individual quiz links where you can see the entire conversation from 
+each of the runs. You can also download the raw data in csv format.
+
+You can find a fully interactive HTML view where you can compare all experiments in a given project. In this view, 
+select experiments you want to compare at the left, then select the columns you want to compare at the right.
+Histograms as displayed in the final paper will show the relative distribution
+> data/PROJECT_NAME/html/index.html
+
