@@ -1,54 +1,6 @@
 ##!/usr/bin/env bash
 
 ###############################################################
-# Junk - delete this section
-###############################################################
-
-# with either Roles or Gender given as a prompt
-for e in  Gender Roles
-do
-  for m in 1.5 7 32 70
-  do
-    echo "🚀 Running ${e} echo for deepseek model ${m}B"
-    ./bin/experiment \
-      --hints ${e} \
-      --verbose  \
-      --experiment ${e}_${m}B \
-      --model deepseek-r1:${m}B \
-      --timeout 600 \
-      --attempts 2 \
-      --n 100 \
-      --questions PuPSafeword,RRSafeword,${e} \
-      data/consent
-    echo
-  done
-done
-# The human data set and a sample of it
-echo "🚀 Running whole human data"
-./bin/experiment \
-  --from-hints \
-  --verbose \
-  --experiment Humans \
-  data/consent
-echo
-
-echo "🚀 Running partial human data"
-./bin/experiment \
-  --from-hints \
-  --verbose \
-  --experiment Humans_100 \
-  --n 100 \
-  data/consent
-echo
-
-exit
-
-
-
-
-
-
-###############################################################
 # This is what we run for the paper that describes Quizzinator
 ###############################################################
 
